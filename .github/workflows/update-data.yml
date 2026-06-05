@@ -2,7 +2,8 @@ name: Update Zcash Dataset
 
 on:
   schedule:
-    - cron: "0 * * * *"
+    # Run hourly away from the top-of-hour Actions scheduling peak.
+    - cron: "17 * * * *"
   workflow_dispatch:
 
 permissions:
