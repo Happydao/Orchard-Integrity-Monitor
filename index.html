@@ -1,0 +1,339 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Orchard Integrity Monitor</title>
+    <meta name="description" content="Public Zcash supply and value pool monitor.">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">Zcash Value Pools</p>
+        <div class="title-row">
+          <h1>Orchard Integrity Monitor</h1>
+          <span class="refresh-badge">Updates Every Hour</span>
+        </div>
+        <p class="subtitle">Public value-pool accounting and post-patch tracking for the June 2026 Orchard vulnerability.</p>
+      </div>
+      <div class="source">
+        <span id="sync-status" class="status-pill status-loading">Loading</span>
+        <span id="updated-at">Waiting for data</span>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero-grid" aria-label="Orchard integrity summary">
+        <article class="metric">
+          <span>Supply Integrity</span>
+          <strong id="summary-integrity">-</strong>
+        </article>
+        <article class="metric">
+          <span>Pool Accounting Difference</span>
+          <strong id="summary-difference">-</strong>
+        </article>
+        <article class="metric">
+          <span>Orchard Remaining Since Patch</span>
+          <strong id="summary-remaining">-</strong>
+        </article>
+        <article class="metric">
+          <span>Current Orchard Balance</span>
+          <strong id="summary-current-orchard">-</strong>
+        </article>
+      </section>
+
+      <section class="panel meaning-panel">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Publicly Observable Facts</p>
+            <h2>Current Public Evidence</h2>
+          </div>
+        </div>
+        <ul class="plain-list">
+          <li>Public value-pool accounting currently balances.</li>
+          <li>Sum of all pools equals emitted ZEC supply.</li>
+          <li>No public value-pool discrepancy has been observed.</li>
+          <li>Orchard currently contains more than 4.3M ZEC.</li>
+          <li>95.6% of Orchard funds present at patch time remain in Orchard.</li>
+          <li>Orchard remains the dominant shielded pool.</li>
+        </ul>
+      </section>
+
+      <section class="panel patch-panel">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Post-Patch Monitor</p>
+            <h2>Orchard Movement Since Patch Block</h2>
+          </div>
+        </div>
+
+        <div class="patch-grid">
+          <div>
+            <span>Patch Block</span>
+            <strong id="patch-block">-</strong>
+          </div>
+          <div>
+            <span>Patch Date</span>
+            <strong id="patch-date">-</strong>
+          </div>
+          <div>
+            <span>Patch Orchard Balance</span>
+            <strong id="patch-orchard">-</strong>
+          </div>
+          <div>
+            <span>Current Orchard Balance</span>
+            <strong id="current-orchard">-</strong>
+          </div>
+          <div>
+            <span>Net Orchard Reduction Since Patch</span>
+            <strong id="moved-since-patch">-</strong>
+          </div>
+          <div>
+            <span>Remaining Orchard Since Patch</span>
+            <strong id="remaining-since-patch">-</strong>
+          </div>
+          <div class="highlight-tile">
+            <span>Percent Remaining Since Patch</span>
+            <strong id="percent-remaining">-</strong>
+          </div>
+          <div>
+            <span>Net Change</span>
+            <strong id="patch-net-change">-</strong>
+          </div>
+          <div>
+            <span>Net Change %</span>
+            <strong id="patch-net-change-pct">-</strong>
+          </div>
+          <div>
+            <span>Latest Interval Orchard Change</span>
+            <strong id="patch-daily-change">-</strong>
+          </div>
+          <div>
+            <span>Weekly Change</span>
+            <strong id="patch-weekly-change">-</strong>
+          </div>
+        </div>
+      </section>
+
+      <section class="panel integrity-panel">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Supply Integrity</p>
+            <h2>Supply Emitted vs Sum of Pools</h2>
+          </div>
+          <span id="integrity-status" class="status-pill status-loading">Loading</span>
+        </div>
+
+        <div class="integrity-grid">
+          <div>
+            <span>Supply Emitted</span>
+            <strong id="supply-emitted">-</strong>
+          </div>
+          <div>
+            <span>Sum of Pools</span>
+            <strong id="sum-pools">-</strong>
+          </div>
+          <div>
+            <span>Difference</span>
+            <strong id="difference">-</strong>
+          </div>
+          <div>
+            <span>Status</span>
+            <strong id="health-integrity">-</strong>
+          </div>
+        </div>
+        <p class="section-note">Includes Transparent, Orchard, Sapling, Sprout and Lockbox pools.</p>
+      </section>
+
+      <section class="panel adoption-panel">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Privacy Adoption</p>
+            <h2>Zcash Pool Share Metrics</h2>
+          </div>
+        </div>
+
+        <div class="patch-grid">
+          <div>
+            <span>Orchard Share of Supply</span>
+            <strong id="orchard-share">-</strong>
+          </div>
+          <div>
+            <span>Total Shielded Share</span>
+            <strong id="shielded-share">-</strong>
+          </div>
+          <div>
+            <span>Transparent Share</span>
+            <strong id="transparent-share">-</strong>
+          </div>
+          <div>
+            <span>Orchard Dominance Among Shielded Funds</span>
+            <strong id="orchard-dominance">-</strong>
+          </div>
+        </div>
+      </section>
+
+      <section class="panel snapshots-panel">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Historical Snapshot Mode</p>
+            <h2>Orchard Accounting Snapshots</h2>
+          </div>
+        </div>
+
+        <div class="patch-grid">
+          <div>
+            <span>Orchard at NU5</span>
+            <strong id="snapshot-nu5">-</strong>
+          </div>
+          <div>
+            <span>Orchard at Patch</span>
+            <strong id="snapshot-patch">-</strong>
+          </div>
+          <div>
+            <span>Orchard Now</span>
+            <strong id="snapshot-now">-</strong>
+          </div>
+          <div>
+            <span>Growth Since NU5</span>
+            <strong id="snapshot-growth">-</strong>
+          </div>
+          <div>
+            <span>Change Since Patch</span>
+            <strong id="snapshot-change">-</strong>
+          </div>
+        </div>
+      </section>
+
+      <section class="panel why-panel">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Why These Metrics Matter</p>
+            <h2>Public Evidence Over Time</h2>
+          </div>
+        </div>
+        <ul class="plain-list">
+          <li>Public supply accounting remains balanced.</li>
+          <li>Orchard balances remain publicly observable after the patch.</li>
+          <li>No public value-pool inflation signal has appeared.</li>
+          <li>Post-patch fund movement can be tracked over time.</li>
+        </ul>
+      </section>
+
+      <section class="panel">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Historical Charts</p>
+            <h2>Historical Pool Share</h2>
+          </div>
+          <div class="chart-meta">
+            <span id="share-history-count">- points</span>
+            <span id="share-history-range">-</span>
+          </div>
+        </div>
+        <div class="chart-wrap">
+          <svg id="share-chart" role="img" aria-labelledby="share-chart-title share-chart-desc"></svg>
+          <h3 id="share-chart-title" class="sr-only">Historical pool share chart</h3>
+          <p id="share-chart-desc" class="sr-only">Line chart showing Orchard, Sapling, and Transparent percentages over time.</p>
+        </div>
+      </section>
+
+      <section class="panel">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Historical Charts</p>
+            <h2>Historical Orchard Balance</h2>
+          </div>
+          <div class="chart-meta">
+            <span id="history-count">- points</span>
+            <span id="history-range">-</span>
+          </div>
+        </div>
+        <div class="chart-wrap">
+          <svg id="orchard-chart" role="img" aria-labelledby="chart-title chart-desc"></svg>
+          <h3 id="chart-title" class="sr-only">Historical Orchard balance chart</h3>
+          <p id="chart-desc" class="sr-only">Line chart showing Orchard pool balance over time.</p>
+        </div>
+      </section>
+
+      <section class="panel methodology-panel">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Source / Methodology</p>
+            <h2>Data Source and Method</h2>
+          </div>
+        </div>
+        <div class="method-grid">
+          <div>
+            <h3>Data source</h3>
+            <p>ZcashInfo API primary.</p>
+          </div>
+          <div>
+            <h3>Method</h3>
+            <p>Current value pools are read from public Zcash value-pool accounting. Patch balance is read from block 3,363,426. All values are converted from zatoshis to ZEC.</p>
+          </div>
+          <div>
+            <h3>Update model</h3>
+            <p>The static dataset is refreshed by the update script and served directly by GitHub Pages.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="panel limitations-panel">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Limitations</p>
+            <h2>Scope of Public Data</h2>
+          </div>
+        </div>
+        <p class="section-note">This dashboard tracks public value-pool accounting and post-patch movement.</p>
+        <p class="section-note">Private Orchard notes are not publicly visible and cannot be independently audited through value-pool balances alone.</p>
+      </section>
+
+      <section class="panel details-panel">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Source</p>
+            <h2>Dataset</h2>
+          </div>
+        </div>
+        <dl>
+          <div>
+            <dt>Primary API</dt>
+            <dd><a href="https://api.zcashinfo.com/docs">ZcashInfo API</a></dd>
+          </div>
+          <div>
+            <dt>Tip Height</dt>
+            <dd id="tip-height">-</dd>
+          </div>
+          <div>
+            <dt>Generated At</dt>
+            <dd id="generated-at">-</dd>
+          </div>
+        </dl>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div>
+        <span>Source</span>
+        <strong><a href="https://api.zcashinfo.com/docs">ZcashInfo API</a></strong>
+      </div>
+      <div>
+        <span>Data Refresh Frequency</span>
+        <strong>Every hour</strong>
+      </div>
+      <div>
+        <span>Last Update (UTC)</span>
+        <strong id="footer-updated-at">-</strong>
+      </div>
+      <div>
+        <span>Repository</span>
+        <strong><a href="https://github.com/Happydao/Orchard-Integrity-Monitor">GitHub</a></strong>
+      </div>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
