@@ -12,13 +12,13 @@ Primary source: [ZcashInfo API](https://api.zcashinfo.com/docs).
 
 The generated dataset includes current value pools, supply integrity, Orchard post-patch metrics, adoption metrics, historical pool shares, and historical Orchard balance snapshots.
 
-## Refresh Frequency
+## Refresh Schedule
 
-The dataset is refreshed automatically every hour through GitHub Actions.
+The dataset is scheduled to refresh hourly through GitHub Actions.
 
 No server required.
 
-The workflow runs `scripts/update.py`, updates `data/data.json`, and commits only when the dataset changed.
+The workflow runs `scripts/update.py`, updates `data/data.json`, and commits only when the dataset changed. GitHub Actions scheduled workflows are not guaranteed to run at the exact scheduled minute.
 
 ## GitHub Pages
 
