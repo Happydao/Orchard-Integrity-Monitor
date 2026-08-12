@@ -1,9 +1,9 @@
 {
   "adoption": {
-    "orchard_dominance_pct": 67.77213597014679,
-    "orchard_share_of_supply_pct": 7.00864807698315,
-    "total_shielded_share_pct": 10.341489133632171,
-    "transparent_share_pct": 73.78411959685086
+    "orchard_dominance_pct": 67.73249228903485,
+    "orchard_share_of_supply_pct": 6.996728425377937,
+    "total_shielded_share_pct": 10.329943855484897,
+    "transparent_share_pct": 73.78106487635841
   },
   "audit_notes": {
     "block_value_delta_available": true,
@@ -14,38 +14,38 @@
   },
   "current": {
     "info": {
-      "best_block": 3444915,
-      "best_block_hash": "00000000001517ee4d61f2aa05d25c829ea04a80c079d6273d2928327d67545e",
-      "chain_tip": 3444915,
+      "best_block": 3444997,
+      "best_block_hash": "0000000000533a3dc4ab66a0b55966c119b9b55e47a8f90600bf9dc2a5e4bf07",
+      "chain_tip": 3444997,
       "chainwork": "0",
-      "difficulty": 270351665.4151904,
-      "latest_stale_height": 3443859,
+      "difficulty": 266555842.4495288,
+      "latest_stale_height": 3443925,
       "size_on_disk": 276414746181,
-      "stale_count": 470,
+      "stale_count": 471,
       "status": "synced",
       "verification_progress": 1.0
     },
     "pools": {
-      "ironwood_zatoshis": 262240517874485,
-      "lockbox_zatoshis": 5597175000000,
-      "orchard_zatoshis": 118252101717629,
-      "sapling_zatoshis": 53970609585649,
+      "ironwood_zatoshis": 262487351893457,
+      "lockbox_zatoshis": 5598712500000,
+      "orchard_zatoshis": 118051886084711,
+      "sapling_zatoshis": 53977353199912,
       "sprout_zatoshis": 2262126786698,
-      "total_supply_zatoshis": 1687231266554480,
-      "transparent_zatoshis": 1244908735590019
+      "total_supply_zatoshis": 1687244079054480,
+      "transparent_zatoshis": 1244866648589702
     }
   },
-  "generated_at": "2026-08-12T05:01:28.989473+00:00",
+  "generated_at": "2026-08-12T06:41:22.336982+00:00",
   "historical_snapshots": {
-    "change_since_patch_zatoshis": -332406562892253,
+    "change_since_patch_zatoshis": -332606778525171,
     "current": {
-      "block": 3444915,
-      "orchard_balance_zatoshis": 118252101717629,
+      "block": 3444997,
+      "orchard_balance_zatoshis": 118051886084711,
       "source": "ZcashInfo current pools",
       "source_url": "https://api.zcashinfo.com/api/v1/coin-pools",
       "timestamp": null
     },
-    "growth_since_nu5_zatoshis": 118252101717629,
+    "growth_since_nu5_zatoshis": 118051886084711,
     "nu5": {
       "block": 1687104,
       "hash": "0000000000d723156d9b65ffcf4984da7a19675ed7e2f06d9e5d5188af087bf8",
@@ -87,13 +87,13 @@
       "transparent_zatoshis": 8727319750000
     },
     {
-      "height": 24862,
+      "height": 24945,
       "lockbox_zatoshis": 0,
       "orchard_zatoshis": 0,
       "sapling_zatoshis": 0,
       "sprout_zatoshis": 0,
-      "timestamp": 1481333348,
-      "transparent_zatoshis": 18579375000000
+      "timestamp": 1481347807,
+      "transparent_zatoshis": 18683125000000
     },
     {
       "height": 33120,
@@ -420,13 +420,13 @@
       "transparent_zatoshis": 387384375000000
     },
     {
-      "height": 328138,
+      "height": 328151,
       "lockbox_zatoshis": 0,
       "orchard_zatoshis": 0,
       "sapling_zatoshis": 0,
       "sprout_zatoshis": 0,
-      "timestamp": 1527058608,
-      "transparent_zatoshis": 397673750000000
+      "timestamp": 1527060751,
+      "transparent_zatoshis": 397690625000000
     },
     {
       "height": 336336,
@@ -438,13 +438,13 @@
       "transparent_zatoshis": 407921250000000
     },
     {
-      "height": 344448,
+      "height": 344556,
       "lockbox_zatoshis": 0,
       "orchard_zatoshis": 0,
       "sapling_zatoshis": 0,
       "sprout_zatoshis": 0,
-      "timestamp": 1529516040,
-      "transparent_zatoshis": 418061875000000
+      "timestamp": 1529531731,
+      "transparent_zatoshis": 418196875000000
     },
     {
       "height": 352728,
@@ -492,13 +492,13 @@
       "transparent_zatoshis": 469282500000000
     },
     {
-      "height": 393537,
+      "height": 393760,
       "lockbox_zatoshis": 0,
       "orchard_zatoshis": 0,
       "sapling_zatoshis": 0,
       "sprout_zatoshis": 0,
-      "timestamp": 1536910378,
-      "transparent_zatoshis": 479423125000000
+      "timestamp": 1536944405,
+      "transparent_zatoshis": 479701250000000
     },
     {
       "height": 401908,
@@ -528,13 +528,13 @@
       "transparent_zatoshis": 510270625000000
     },
     {
-      "height": 426537,
+      "height": 426558,
       "lockbox_zatoshis": 0,
       "orchard_zatoshis": 0,
-      "sapling_zatoshis": 2371021209697,
+      "sapling_zatoshis": 2371009329458,
       "sprout_zatoshis": 0,
-      "timestamp": 1541883336,
-      "transparent_zatoshis": 518301478790303
+      "timestamp": 1541886164,
+      "transparent_zatoshis": 518328365670542
     },
     {
       "height": 434684,
@@ -609,22 +609,22 @@
       "transparent_zatoshis": 590661274530668
     },
     {
-      "height": 500253,
+      "height": 500342,
       "lockbox_zatoshis": 0,
       "orchard_zatoshis": 0,
-      "sapling_zatoshis": 12275822666327,
+      "sapling_zatoshis": 12258791031776,
       "sprout_zatoshis": 0,
-      "timestamp": 1552992899,
-      "transparent_zatoshis": 600542302333673
+      "timestamp": 1553006648,
+      "transparent_zatoshis": 600670583968224
     },
     {
-      "height": 508508,
+      "height": 508528,
       "lockbox_zatoshis": 0,
       "orchard_zatoshis": 0,
-      "sapling_zatoshis": 12151834107307,
+      "sapling_zatoshis": 12135685366635,
       "sprout_zatoshis": 0,
-      "timestamp": 1554236557,
-      "transparent_zatoshis": 610985040892693
+      "timestamp": 1554241250,
+      "transparent_zatoshis": 611025564633365
     },
     {
       "height": 516722,
@@ -735,13 +735,13 @@
       "transparent_zatoshis": 724446652600587
     },
     {
-      "height": 615077,
+      "height": 615123,
       "lockbox_zatoshis": 0,
       "orchard_zatoshis": 0,
-      "sapling_zatoshis": 22369964561344,
+      "sapling_zatoshis": 22373970859107,
       "sprout_zatoshis": 0,
-      "timestamp": 1570296524,
-      "transparent_zatoshis": 733978160438656
+      "timestamp": 1570302756,
+      "transparent_zatoshis": 734031654140893
     },
     {
       "height": 623322,
@@ -798,31 +798,31 @@
       "transparent_zatoshis": 791866413161220
     },
     {
-      "height": 691335,
+      "height": 691418,
       "lockbox_zatoshis": 0,
       "orchard_zatoshis": 0,
-      "sapling_zatoshis": 27084541625079,
+      "sapling_zatoshis": 27033985883928,
       "sprout_zatoshis": 0,
-      "timestamp": 1578946419,
-      "transparent_zatoshis": 801001083374921
+      "timestamp": 1578951840,
+      "transparent_zatoshis": 801103514116072
     },
     {
-      "height": 707691,
+      "height": 707816,
       "lockbox_zatoshis": 0,
       "orchard_zatoshis": 0,
-      "sapling_zatoshis": 21303520440015,
+      "sapling_zatoshis": 21310258748216,
       "sprout_zatoshis": 0,
-      "timestamp": 1580177779,
-      "transparent_zatoshis": 817004604559985
+      "timestamp": 1580186779,
+      "transparent_zatoshis": 817075366251784
     },
     {
-      "height": 724176,
+      "height": 724206,
       "lockbox_zatoshis": 0,
       "orchard_zatoshis": 0,
-      "sapling_zatoshis": 28346044005942,
+      "sapling_zatoshis": 28191634476284,
       "sprout_zatoshis": 0,
-      "timestamp": 1581419883,
-      "transparent_zatoshis": 820264580994058
+      "timestamp": 1581422277,
+      "transparent_zatoshis": 820438365523716
     },
     {
       "height": 740458,
@@ -843,13 +843,13 @@
       "transparent_zatoshis": 842629725556806
     },
     {
-      "height": 773372,
+      "height": 773381,
       "lockbox_zatoshis": 0,
       "orchard_zatoshis": 0,
-      "sapling_zatoshis": 30556893546588,
+      "sapling_zatoshis": 30553304003866,
       "sprout_zatoshis": 0,
-      "timestamp": 1585127492,
-      "transparent_zatoshis": 848801231453412
+      "timestamp": 1585128310,
+      "transparent_zatoshis": 848811070996134
     },
     {
       "height": 789693,
@@ -897,13 +897,13 @@
       "transparent_zatoshis": 896954849279160
     },
     {
-      "height": 871728,
+      "height": 871774,
       "lockbox_zatoshis": 0,
       "orchard_zatoshis": 0,
-      "sapling_zatoshis": 38788946910502,
+      "sapling_zatoshis": 38794642541071,
       "sprout_zatoshis": 0,
-      "timestamp": 1592539711,
-      "transparent_zatoshis": 902041678089498
+      "timestamp": 1592542850,
+      "transparent_zatoshis": 902065357458929
     },
     {
       "height": 888042,
@@ -933,13 +933,13 @@
       "transparent_zatoshis": 939301074987098
     },
     {
-      "height": 937296,
+      "height": 937335,
       "lockbox_zatoshis": 0,
       "orchard_zatoshis": 0,
-      "sapling_zatoshis": 41691684667249,
+      "sapling_zatoshis": 41692095850015,
       "sprout_zatoshis": 0,
-      "timestamp": 1597481431,
-      "transparent_zatoshis": 940119565332751
+      "timestamp": 1597484777,
+      "transparent_zatoshis": 940143529149985
     },
     {
       "height": 953680,
@@ -978,13 +978,13 @@
       "transparent_zatoshis": 974208645446182
     },
     {
-      "height": 1019235,
+      "height": 1019310,
       "lockbox_zatoshis": 0,
       "orchard_zatoshis": 0,
-      "sapling_zatoshis": 53893818446364,
+      "sapling_zatoshis": 53750540679469,
       "sprout_zatoshis": 0,
-      "timestamp": 1603656526,
-      "transparent_zatoshis": 979128681553636
+      "timestamp": 1603661512,
+      "transparent_zatoshis": 979319459320531
     },
     {
       "height": 1035645,
@@ -1023,13 +1023,13 @@
       "transparent_zatoshis": 999060327175553
     },
     {
-      "height": 1101217,
+      "height": 1101240,
       "lockbox_zatoshis": 0,
       "orchard_zatoshis": 0,
-      "sapling_zatoshis": 62613891817158,
+      "sapling_zatoshis": 62623567706686,
       "sprout_zatoshis": 0,
-      "timestamp": 1609837031,
-      "transparent_zatoshis": 1004517358182842
+      "timestamp": 1609838969,
+      "transparent_zatoshis": 1004514869793314
     },
     {
       "height": 1117536,
@@ -1041,13 +1041,13 @@
       "transparent_zatoshis": 1012795743871446
     },
     {
-      "height": 1133955,
+      "height": 1134006,
       "lockbox_zatoshis": 0,
       "orchard_zatoshis": 0,
-      "sapling_zatoshis": 62491234729187,
+      "sapling_zatoshis": 62424008397090,
       "sprout_zatoshis": 0,
-      "timestamp": 1612305938,
-      "transparent_zatoshis": 1014870640270813
+      "timestamp": 1612310008,
+      "transparent_zatoshis": 1014953179102910
     },
     {
       "height": 1150230,
@@ -1086,13 +1086,13 @@
       "transparent_zatoshis": 1038717484755257
     },
     {
-      "height": 1215832,
+      "height": 1215942,
       "lockbox_zatoshis": 0,
       "orchard_zatoshis": 0,
-      "sapling_zatoshis": 58166058024419,
+      "sapling_zatoshis": 58184311086207,
       "sprout_zatoshis": 0,
-      "timestamp": 1618479477,
-      "transparent_zatoshis": 1044782379475581
+      "timestamp": 1618487932,
+      "transparent_zatoshis": 1044798501413793
     },
     {
       "height": 1232283,
@@ -1104,31 +1104,31 @@
       "transparent_zatoshis": 1052342995236819
     },
     {
-      "height": 1248624,
+      "height": 1248696,
       "lockbox_zatoshis": 0,
       "orchard_zatoshis": 0,
-      "sapling_zatoshis": 54933105484219,
+      "sapling_zatoshis": 54939516356829,
       "sprout_zatoshis": 0,
-      "timestamp": 1620953440,
-      "transparent_zatoshis": 1058262832015781
+      "timestamp": 1620958877,
+      "transparent_zatoshis": 1058278921143171
     },
     {
-      "height": 1264947,
+      "height": 1265061,
       "lockbox_zatoshis": 0,
       "orchard_zatoshis": 0,
-      "sapling_zatoshis": 56528012120241,
+      "sapling_zatoshis": 56520789152256,
       "sprout_zatoshis": 0,
-      "timestamp": 1622185096,
-      "transparent_zatoshis": 1061768862879759
+      "timestamp": 1622193758,
+      "transparent_zatoshis": 1061811710847744
     },
     {
-      "height": 1281360,
+      "height": 1281420,
       "lockbox_zatoshis": 0,
       "orchard_zatoshis": 0,
-      "sapling_zatoshis": 64975407177607,
+      "sapling_zatoshis": 64984027865558,
       "sprout_zatoshis": 0,
-      "timestamp": 1623423998,
-      "transparent_zatoshis": 1058450530322393
+      "timestamp": 1623428025,
+      "transparent_zatoshis": 1058460659634442
     },
     {
       "height": 1297764,
@@ -1140,22 +1140,22 @@
       "transparent_zatoshis": 1062566439166968
     },
     {
-      "height": 1314048,
+      "height": 1314196,
       "lockbox_zatoshis": 0,
       "orchard_zatoshis": 0,
-      "sapling_zatoshis": 65764985471535,
+      "sapling_zatoshis": 65749846812175,
       "sprout_zatoshis": 0,
-      "timestamp": 1625888213,
-      "transparent_zatoshis": 1067875327028465
+      "timestamp": 1625899618,
+      "transparent_zatoshis": 1067937340687825
     },
     {
-      "height": 1330518,
+      "height": 1330575,
       "lockbox_zatoshis": 0,
       "orchard_zatoshis": 0,
-      "sapling_zatoshis": 66589369405366,
+      "sapling_zatoshis": 66567981627833,
       "sprout_zatoshis": 0,
-      "timestamp": 1627130986,
-      "transparent_zatoshis": 1072198443094634
+      "timestamp": 1627135140,
+      "transparent_zatoshis": 1072237643372167
     },
     {
       "height": 1346936,
@@ -1167,40 +1167,40 @@
       "transparent_zatoshis": 1074537161957770
     },
     {
-      "height": 1363023,
+      "height": 1363348,
       "lockbox_zatoshis": 0,
       "orchard_zatoshis": 0,
-      "sapling_zatoshis": 82209341443933,
+      "sapling_zatoshis": 82261491000305,
       "sprout_zatoshis": 0,
-      "timestamp": 1629582503,
-      "transparent_zatoshis": 1066736283556067
+      "timestamp": 1629606578,
+      "transparent_zatoshis": 1066785696499695
     },
     {
-      "height": 1379664,
+      "height": 1379730,
       "lockbox_zatoshis": 0,
       "orchard_zatoshis": 0,
-      "sapling_zatoshis": 85065877884126,
+      "sapling_zatoshis": 85038670227586,
       "sprout_zatoshis": 0,
-      "timestamp": 1630837174,
-      "transparent_zatoshis": 1069079434615874
+      "timestamp": 1630841934,
+      "transparent_zatoshis": 1069127892272414
     },
     {
-      "height": 1396008,
+      "height": 1396095,
       "lockbox_zatoshis": 0,
       "orchard_zatoshis": 0,
-      "sapling_zatoshis": 85589976614919,
+      "sapling_zatoshis": 85600587734153,
       "sprout_zatoshis": 0,
-      "timestamp": 1632070441,
-      "transparent_zatoshis": 1073663460885081
+      "timestamp": 1632077019,
+      "transparent_zatoshis": 1073679412265847
     },
     {
-      "height": 1412400,
+      "height": 1412460,
       "lockbox_zatoshis": 0,
       "orchard_zatoshis": 0,
-      "sapling_zatoshis": 86900179330351,
+      "sapling_zatoshis": 86904648345843,
       "sprout_zatoshis": 0,
-      "timestamp": 1633307692,
-      "transparent_zatoshis": 1077475133169649
+      "timestamp": 1633311930,
+      "transparent_zatoshis": 1077490039154157
     },
     {
       "height": 1428829,
@@ -1257,13 +1257,13 @@
       "transparent_zatoshis": 1112937773281651
     },
     {
-      "height": 1527104,
+      "height": 1527175,
       "lockbox_zatoshis": 0,
       "orchard_zatoshis": 0,
-      "sapling_zatoshis": 79763781222543,
+      "sapling_zatoshis": 79772469678361,
       "sprout_zatoshis": 0,
-      "timestamp": 1641956662,
-      "transparent_zatoshis": 1120456531277457
+      "timestamp": 1641961617,
+      "transparent_zatoshis": 1120470655321639
     },
     {
       "height": 1543464,
@@ -1275,13 +1275,13 @@
       "transparent_zatoshis": 1132848441276489
     },
     {
-      "height": 1559894,
+      "height": 1559954,
       "lockbox_zatoshis": 0,
       "orchard_zatoshis": 0,
-      "sapling_zatoshis": 63368974927116,
+      "sapling_zatoshis": 63433654895715,
       "sprout_zatoshis": 0,
-      "timestamp": 1644428874,
-      "transparent_zatoshis": 1147098837572884
+      "timestamp": 1644433160,
+      "transparent_zatoshis": 1147052907604285
     },
     {
       "height": 1575960,
@@ -1293,31 +1293,31 @@
       "transparent_zatoshis": 1145074518326895
     },
     {
-      "height": 1592631,
+      "height": 1592727,
       "lockbox_zatoshis": 0,
       "orchard_zatoshis": 0,
-      "sapling_zatoshis": 67985780047797,
+      "sapling_zatoshis": 67962144868309,
       "sprout_zatoshis": 0,
-      "timestamp": 1646896219,
-      "transparent_zatoshis": 1152712344952203
+      "timestamp": 1646902769,
+      "transparent_zatoshis": 1152765980131691
     },
     {
-      "height": 1609092,
+      "height": 1609110,
       "lockbox_zatoshis": 0,
       "orchard_zatoshis": 0,
-      "sapling_zatoshis": 67768623859751,
+      "sapling_zatoshis": 67778046978819,
       "sprout_zatoshis": 0,
-      "timestamp": 1648136299,
-      "transparent_zatoshis": 1158073563640249
+      "timestamp": 1648138216,
+      "transparent_zatoshis": 1158069765521181
     },
     {
-      "height": 1625450,
+      "height": 1625505,
       "lockbox_zatoshis": 0,
       "orchard_zatoshis": 0,
-      "sapling_zatoshis": 71668421625653,
+      "sapling_zatoshis": 71625463918683,
       "sprout_zatoshis": 0,
-      "timestamp": 1649369971,
-      "transparent_zatoshis": 1159285015874347
+      "timestamp": 1649373864,
+      "transparent_zatoshis": 1159345786081317
     },
     {
       "height": 1641808,
@@ -1338,40 +1338,40 @@
       "transparent_zatoshis": 1164758295071917
     },
     {
-      "height": 1674567,
+      "height": 1674660,
       "lockbox_zatoshis": 0,
       "orchard_zatoshis": 0,
-      "sapling_zatoshis": 78167184705649,
+      "sapling_zatoshis": 78156531826872,
       "sprout_zatoshis": 0,
-      "timestamp": 1653074181,
-      "transparent_zatoshis": 1168135940294351
+      "timestamp": 1653080197,
+      "transparent_zatoshis": 1168175655673128
     },
     {
-      "height": 1690776,
+      "height": 1691058,
       "lockbox_zatoshis": 0,
-      "orchard_zatoshis": 323205035720,
-      "sapling_zatoshis": 79904677569632,
+      "orchard_zatoshis": 323770282760,
+      "sapling_zatoshis": 79887515355284,
       "sprout_zatoshis": 0,
-      "timestamp": 1654295752,
-      "transparent_zatoshis": 1171140554894648
+      "timestamp": 1654317087,
+      "transparent_zatoshis": 1171245276861956
     },
     {
-      "height": 1707336,
+      "height": 1707420,
       "lockbox_zatoshis": 0,
-      "orchard_zatoshis": 936301325025,
-      "sapling_zatoshis": 80767207815603,
+      "orchard_zatoshis": 936300665025,
+      "sapling_zatoshis": 80778176333802,
       "sprout_zatoshis": 0,
-      "timestamp": 1655543749,
-      "transparent_zatoshis": 1174839928359372
+      "timestamp": 1655550176,
+      "transparent_zatoshis": 1174854585501173
     },
     {
-      "height": 1723680,
+      "height": 1723815,
       "lockbox_zatoshis": 0,
       "orchard_zatoshis": 952121127107,
-      "sapling_zatoshis": 79763307949282,
+      "sapling_zatoshis": 79763687118529,
       "sprout_zatoshis": 0,
-      "timestamp": 1656778053,
-      "transparent_zatoshis": 1180935508423611
+      "timestamp": 1656787349,
+      "transparent_zatoshis": 1180977316754364
     },
     {
       "height": 1740154,
@@ -1383,49 +1383,49 @@
       "transparent_zatoshis": 1186089298303523
     },
     {
-      "height": 1756512,
+      "height": 1756560,
       "lockbox_zatoshis": 0,
       "orchard_zatoshis": 984667767281,
-      "sapling_zatoshis": 78919800568473,
+      "sapling_zatoshis": 78924003189381,
       "sprout_zatoshis": 0,
-      "timestamp": 1659252914,
-      "transparent_zatoshis": 1192005844164246
+      "timestamp": 1659256808,
+      "transparent_zatoshis": 1192017266543338
     },
     {
-      "height": 1772955,
+      "height": 1772976,
       "lockbox_zatoshis": 0,
-      "orchard_zatoshis": 1141724303011,
-      "sapling_zatoshis": 78766262625314,
+      "orchard_zatoshis": 1141724290011,
+      "sapling_zatoshis": 78766070240858,
       "sprout_zatoshis": 0,
-      "timestamp": 1660491919,
-      "transparent_zatoshis": 1197140763071675
+      "timestamp": 1660493312,
+      "transparent_zatoshis": 1197147517969131
     },
     {
-      "height": 1789165,
+      "height": 1789388,
       "lockbox_zatoshis": 0,
-      "orchard_zatoshis": 1154101688229,
-      "sapling_zatoshis": 80660985127257,
+      "orchard_zatoshis": 1154100941757,
+      "sapling_zatoshis": 80516019906007,
       "sprout_zatoshis": 0,
-      "timestamp": 1661713810,
-      "transparent_zatoshis": 1200299913184514
+      "timestamp": 1661730744,
+      "transparent_zatoshis": 1200514566652236
     },
     {
-      "height": 1805706,
+      "height": 1805760,
       "lockbox_zatoshis": 0,
-      "orchard_zatoshis": 1454184954919,
-      "sapling_zatoshis": 82643581318078,
+      "orchard_zatoshis": 1454184933304,
+      "sapling_zatoshis": 82630131260585,
       "sprout_zatoshis": 0,
-      "timestamp": 1662960179,
-      "transparent_zatoshis": 1203186296227003
+      "timestamp": 1662964216,
+      "transparent_zatoshis": 1203216621306111
     },
     {
-      "height": 1822125,
+      "height": 1822145,
       "lockbox_zatoshis": 0,
-      "orchard_zatoshis": 1599375694771,
-      "sapling_zatoshis": 84998811917790,
+      "orchard_zatoshis": 1599375676181,
+      "sapling_zatoshis": 85014133517413,
       "sprout_zatoshis": 0,
-      "timestamp": 1664198172,
-      "transparent_zatoshis": 1205816812387439
+      "timestamp": 1664199490,
+      "transparent_zatoshis": 1205807740806406
     },
     {
       "height": 1838505,
@@ -1446,31 +1446,31 @@
       "transparent_zatoshis": 1209768720307616
     },
     {
-      "height": 1871280,
+      "height": 1871352,
       "lockbox_zatoshis": 0,
-      "orchard_zatoshis": 1621668355598,
-      "sapling_zatoshis": 89060673922447,
+      "orchard_zatoshis": 1621668317598,
+      "sapling_zatoshis": 89051129153611,
       "sprout_zatoshis": 0,
-      "timestamp": 1667901937,
-      "transparent_zatoshis": 1217093595221955
+      "timestamp": 1667906827,
+      "transparent_zatoshis": 1217125640028791
     },
     {
-      "height": 1887600,
+      "height": 1887730,
       "lockbox_zatoshis": 0,
-      "orchard_zatoshis": 1910009989596,
-      "sapling_zatoshis": 93596408699774,
+      "orchard_zatoshis": 1910009912597,
+      "sapling_zatoshis": 93743739278575,
       "sprout_zatoshis": 0,
-      "timestamp": 1669131497,
-      "transparent_zatoshis": 1217368893810630
+      "timestamp": 1669141160,
+      "transparent_zatoshis": 1217262813308828
     },
     {
-      "height": 1903986,
+      "height": 1904135,
       "lockbox_zatoshis": 0,
-      "orchard_zatoshis": 2051093984404,
-      "sapling_zatoshis": 92948693077057,
+      "orchard_zatoshis": 2050593983404,
+      "sapling_zatoshis": 93124344035192,
       "sprout_zatoshis": 0,
-      "timestamp": 1670366010,
-      "transparent_zatoshis": 1222996775438539
+      "timestamp": 1670377766,
+      "transparent_zatoshis": 1222868186981404
     },
     {
       "height": 1920435,
@@ -1491,13 +1491,13 @@
       "transparent_zatoshis": 1227400210482385
     },
     {
-      "height": 1953133,
+      "height": 1953341,
       "lockbox_zatoshis": 0,
-      "orchard_zatoshis": 2737225426388,
-      "sapling_zatoshis": 101687742325656,
+      "orchard_zatoshis": 2731990511741,
+      "sapling_zatoshis": 101792906236989,
       "sprout_zatoshis": 0,
-      "timestamp": 1674069845,
-      "transparent_zatoshis": 1228930032247956
+      "timestamp": 1674085372,
+      "transparent_zatoshis": 1228895103251270
     },
     {
       "height": 1969643,
@@ -1509,49 +1509,49 @@
       "transparent_zatoshis": 1234166458993520
     },
     {
-      "height": 1986008,
+      "height": 1986108,
       "lockbox_zatoshis": 0,
-      "orchard_zatoshis": 4183191448111,
-      "sapling_zatoshis": 97348112356588,
+      "orchard_zatoshis": 4161584897354,
+      "sapling_zatoshis": 97254571064451,
       "sprout_zatoshis": 0,
-      "timestamp": 1676548463,
-      "transparent_zatoshis": 1242096508695301
+      "timestamp": 1676555458,
+      "transparent_zatoshis": 1242243531538195
     },
     {
-      "height": 2002410,
+      "height": 2002497,
       "lockbox_zatoshis": 0,
-      "orchard_zatoshis": 4148471837933,
-      "sapling_zatoshis": 98513413084794,
+      "orchard_zatoshis": 4046258709696,
+      "sapling_zatoshis": 98548262989883,
       "sprout_zatoshis": 0,
-      "timestamp": 1677785072,
-      "transparent_zatoshis": 1246092177577273
+      "timestamp": 1677791297,
+      "transparent_zatoshis": 1246186103300421
     },
     {
-      "height": 2018745,
+      "height": 2018882,
       "lockbox_zatoshis": 0,
-      "orchard_zatoshis": 4551979026959,
-      "sapling_zatoshis": 102859199471328,
+      "orchard_zatoshis": 4633193552715,
+      "sapling_zatoshis": 102927361290525,
       "sprout_zatoshis": 0,
-      "timestamp": 1679015798,
-      "transparent_zatoshis": 1246447571501713
+      "timestamp": 1679026211,
+      "transparent_zatoshis": 1246341007656760
     },
     {
-      "height": 2035245,
+      "height": 2035278,
       "lockbox_zatoshis": 0,
-      "orchard_zatoshis": 5341009306402,
-      "sapling_zatoshis": 101341394430004,
+      "orchard_zatoshis": 5326802089148,
+      "sapling_zatoshis": 101371027487541,
       "sprout_zatoshis": 0,
-      "timestamp": 1680259240,
-      "transparent_zatoshis": 1252332596263594
+      "timestamp": 1680262317,
+      "transparent_zatoshis": 1252327482923311
     },
     {
-      "height": 2051489,
+      "height": 2051660,
       "lockbox_zatoshis": 0,
-      "orchard_zatoshis": 5975582589971,
-      "sapling_zatoshis": 108649145255170,
+      "orchard_zatoshis": 5845970516434,
+      "sapling_zatoshis": 108511333366565,
       "sprout_zatoshis": 0,
-      "timestamp": 1681483676,
-      "transparent_zatoshis": 1249465897154859
+      "timestamp": 1681496376,
+      "transparent_zatoshis": 1249787383617001
     },
     {
       "height": 2067900,
@@ -1572,31 +1572,31 @@
       "transparent_zatoshis": 1246397072625716
     },
     {
-      "height": 2100756,
+      "height": 2100826,
       "lockbox_zatoshis": 0,
-      "orchard_zatoshis": 8375952444126,
-      "sapling_zatoshis": 116703381753392,
+      "orchard_zatoshis": 8417976976537,
+      "sapling_zatoshis": 116637670080666,
       "sprout_zatoshis": 0,
-      "timestamp": 1685199476,
-      "transparent_zatoshis": 1254407853302482
+      "timestamp": 1685203933,
+      "transparent_zatoshis": 1254453415442797
     },
     {
-      "height": 2117157,
+      "height": 2117219,
       "lockbox_zatoshis": 0,
-      "orchard_zatoshis": 8849133032948,
-      "sapling_zatoshis": 116673872578681,
+      "orchard_zatoshis": 8922752549527,
+      "sapling_zatoshis": 116609928361071,
       "sprout_zatoshis": 0,
-      "timestamp": 1686435273,
-      "transparent_zatoshis": 1259089494388371
+      "timestamp": 1686439606,
+      "transparent_zatoshis": 1259099194089402
     },
     {
-      "height": 2133207,
+      "height": 2133617,
       "lockbox_zatoshis": 0,
-      "orchard_zatoshis": 9703294747912,
-      "sapling_zatoshis": 122455570038874,
+      "orchard_zatoshis": 9684631588656,
+      "sapling_zatoshis": 122463448887174,
       "sprout_zatoshis": 0,
-      "timestamp": 1687645009,
-      "transparent_zatoshis": 1257469260213214
+      "timestamp": 1687675718,
+      "transparent_zatoshis": 1257607544524170
     },
     {
       "height": 2149815,
@@ -1608,31 +1608,31 @@
       "transparent_zatoshis": 1267287672215479
     },
     {
-      "height": 2166216,
+      "height": 2166398,
       "lockbox_zatoshis": 0,
-      "orchard_zatoshis": 9109343566441,
-      "sapling_zatoshis": 116747086094252,
+      "orchard_zatoshis": 9078705595950,
+      "sapling_zatoshis": 116426712904102,
       "sprout_zatoshis": 0,
-      "timestamp": 1690133700,
-      "transparent_zatoshis": 1274087007839307
+      "timestamp": 1690146967,
+      "transparent_zatoshis": 1274494268999948
     },
     {
-      "height": 2182700,
+      "height": 2182752,
       "lockbox_zatoshis": 0,
-      "orchard_zatoshis": 9572048041840,
-      "sapling_zatoshis": 113951717974850,
+      "orchard_zatoshis": 9560917631539,
+      "sapling_zatoshis": 113945931771322,
       "sprout_zatoshis": 0,
-      "timestamp": 1691376043,
-      "transparent_zatoshis": 1281570921483310
+      "timestamp": 1691380217,
+      "transparent_zatoshis": 1281603463097139
     },
     {
-      "height": 2199078,
+      "height": 2199168,
       "lockbox_zatoshis": 0,
-      "orchard_zatoshis": 9355218531762,
-      "sapling_zatoshis": 116209622736347,
+      "orchard_zatoshis": 9352932512184,
+      "sapling_zatoshis": 116244126742149,
       "sprout_zatoshis": 0,
-      "timestamp": 1692610528,
-      "transparent_zatoshis": 1284647971231891
+      "timestamp": 1692617865,
+      "transparent_zatoshis": 1284643878245667
     },
     {
       "height": 2215443,
@@ -1716,49 +1716,49 @@
       "transparent_zatoshis": 1330826620543715
     },
     {
-      "height": 2362932,
+      "height": 2363017,
       "lockbox_zatoshis": 0,
-      "orchard_zatoshis": 14468778215673,
-      "sapling_zatoshis": 108670839519431,
+      "orchard_zatoshis": 14427060163796,
+      "sapling_zatoshis": 108673268420437,
       "sprout_zatoshis": 0,
-      "timestamp": 1704963687,
-      "transparent_zatoshis": 1338276944764896
+      "timestamp": 1704969990,
+      "transparent_zatoshis": 1338343421415767
     },
     {
-      "height": 2379357,
+      "height": 2379430,
       "lockbox_zatoshis": 0,
-      "orchard_zatoshis": 13490745647266,
-      "sapling_zatoshis": 109948696419698,
+      "orchard_zatoshis": 13483716646832,
+      "sapling_zatoshis": 109892797268594,
       "sprout_zatoshis": 0,
-      "timestamp": 1706200567,
-      "transparent_zatoshis": 1343109932933036
+      "timestamp": 1706206703,
+      "transparent_zatoshis": 1343195673584574
     },
     {
-      "height": 2395710,
+      "height": 2395806,
       "lockbox_zatoshis": 0,
-      "orchard_zatoshis": 13289634003273,
-      "sapling_zatoshis": 108646927781821,
+      "orchard_zatoshis": 13277701811079,
+      "sapling_zatoshis": 108626215841714,
       "sprout_zatoshis": 0,
-      "timestamp": 1707434447,
-      "transparent_zatoshis": 1349723750714906
+      "timestamp": 1707441809,
+      "transparent_zatoshis": 1349786394847207
     },
     {
-      "height": 2412149,
+      "height": 2412208,
       "lockbox_zatoshis": 0,
-      "orchard_zatoshis": 13273086412557,
-      "sapling_zatoshis": 110225610397764,
+      "orchard_zatoshis": 13273690664827,
+      "sapling_zatoshis": 110232662828904,
       "sprout_zatoshis": 0,
-      "timestamp": 1708673050,
-      "transparent_zatoshis": 1353298803189679
+      "timestamp": 1708677775,
+      "transparent_zatoshis": 1353308959006269
     },
     {
-      "height": 2428530,
+      "height": 2428621,
       "lockbox_zatoshis": 0,
-      "orchard_zatoshis": 13774297350726,
-      "sapling_zatoshis": 102887659148437,
+      "orchard_zatoshis": 13757892079462,
+      "sapling_zatoshis": 102771534183067,
       "sprout_zatoshis": 0,
-      "timestamp": 1709908194,
-      "transparent_zatoshis": 1365254606000837
+      "timestamp": 1709914996,
+      "transparent_zatoshis": 1365415573737471
     },
     {
       "height": 2444940,
@@ -1770,49 +1770,49 @@
       "transparent_zatoshis": 1363777059691079
     },
     {
-      "height": 2461240,
+      "height": 2461383,
       "lockbox_zatoshis": 0,
-      "orchard_zatoshis": 19259992669415,
-      "sapling_zatoshis": 106848782049955,
+      "orchard_zatoshis": 19256117374287,
+      "sapling_zatoshis": 106832349714317,
       "sprout_zatoshis": 0,
-      "timestamp": 1712374527,
-      "transparent_zatoshis": 1366029662780630
+      "timestamp": 1712384543,
+      "transparent_zatoshis": 1366094657911396
     },
     {
-      "height": 2477540,
+      "height": 2477790,
       "lockbox_zatoshis": 0,
-      "orchard_zatoshis": 18818511195702,
-      "sapling_zatoshis": 106384310770985,
+      "orchard_zatoshis": 18817931386222,
+      "sapling_zatoshis": 106129954692913,
       "sprout_zatoshis": 0,
-      "timestamp": 1713603271,
-      "transparent_zatoshis": 1372029365533313
+      "timestamp": 1713621638,
+      "transparent_zatoshis": 1372362426420865
     },
     {
-      "height": 2494008,
+      "height": 2494128,
       "lockbox_zatoshis": 0,
-      "orchard_zatoshis": 19751877988071,
-      "sapling_zatoshis": 104977443354265,
+      "orchard_zatoshis": 19777842963711,
+      "sapling_zatoshis": 105122195394528,
       "sprout_zatoshis": 0,
-      "timestamp": 1714844069,
-      "transparent_zatoshis": 1377649116157664
+      "timestamp": 1714853955,
+      "transparent_zatoshis": 1377515274141761
     },
     {
-      "height": 2510502,
+      "height": 2510508,
       "lockbox_zatoshis": 0,
-      "orchard_zatoshis": 21743254291305,
-      "sapling_zatoshis": 104003539749531,
+      "orchard_zatoshis": 21740367190532,
+      "sapling_zatoshis": 104003663912311,
       "sprout_zatoshis": 0,
-      "timestamp": 1716088169,
-      "transparent_zatoshis": 1381786018459164
+      "timestamp": 1716088492,
+      "transparent_zatoshis": 1381790031397157
     },
     {
-      "height": 2526744,
+      "height": 2526912,
       "lockbox_zatoshis": 0,
-      "orchard_zatoshis": 34804627195428,
-      "sapling_zatoshis": 106886047685269,
+      "orchard_zatoshis": 34959326090556,
+      "sapling_zatoshis": 106873641994599,
       "sprout_zatoshis": 0,
-      "timestamp": 1717312151,
-      "transparent_zatoshis": 1370917762619303
+      "timestamp": 1717325553,
+      "transparent_zatoshis": 1370827344414845
     },
     {
       "height": 2543262,
@@ -1842,22 +1842,22 @@
       "transparent_zatoshis": 1353251940424856
     },
     {
-      "height": 2592376,
+      "height": 2592462,
       "lockbox_zatoshis": 0,
-      "orchard_zatoshis": 49161927885391,
-      "sapling_zatoshis": 99723978850249,
+      "orchard_zatoshis": 49162585352391,
+      "sapling_zatoshis": 99764853701723,
       "sprout_zatoshis": 0,
-      "timestamp": 1722259690,
-      "transparent_zatoshis": 1384232530764360
+      "timestamp": 1722266298,
+      "transparent_zatoshis": 1384217248445886
     },
     {
-      "height": 2608718,
+      "height": 2608899,
       "lockbox_zatoshis": 0,
-      "orchard_zatoshis": 44357506954454,
-      "sapling_zatoshis": 95669138938507,
+      "orchard_zatoshis": 42362035381794,
+      "sapling_zatoshis": 95662709192971,
       "sprout_zatoshis": 0,
-      "timestamp": 1723491148,
-      "transparent_zatoshis": 1398198666607039
+      "timestamp": 1723505211,
+      "transparent_zatoshis": 1400256505425235
     },
     {
       "height": 2625208,
@@ -1878,31 +1878,31 @@
       "transparent_zatoshis": 1399842105200874
     },
     {
-      "height": 2657880,
+      "height": 2658084,
       "lockbox_zatoshis": 0,
-      "orchard_zatoshis": 50183466429275,
-      "sapling_zatoshis": 96459109100195,
+      "orchard_zatoshis": 50196570773430,
+      "sapling_zatoshis": 96466053322356,
       "sprout_zatoshis": 0,
-      "timestamp": 1727196268,
-      "transparent_zatoshis": 1406945861970530
+      "timestamp": 1727212341,
+      "transparent_zatoshis": 1406988938404214
     },
     {
-      "height": 2674293,
+      "height": 2674440,
       "lockbox_zatoshis": 0,
-      "orchard_zatoshis": 63287847839062,
-      "sapling_zatoshis": 93547321384194,
+      "orchard_zatoshis": 63261346401862,
+      "sapling_zatoshis": 93516972365567,
       "sprout_zatoshis": 0,
-      "timestamp": 1728433488,
-      "transparent_zatoshis": 1401881705776744
+      "timestamp": 1728444977,
+      "transparent_zatoshis": 1401985118732571
     },
     {
-      "height": 2690740,
+      "height": 2690856,
       "lockbox_zatoshis": 0,
-      "orchard_zatoshis": 65826534424574,
-      "sapling_zatoshis": 98778835426463,
+      "orchard_zatoshis": 65832538434816,
+      "sapling_zatoshis": 98608924836514,
       "sprout_zatoshis": 0,
-      "timestamp": 1729673724,
-      "transparent_zatoshis": 1399251817648963
+      "timestamp": 1729682268,
+      "transparent_zatoshis": 1399451974228670
     },
     {
       "height": 2707208,
@@ -1932,13 +1932,13 @@
       "transparent_zatoshis": 1403436826626496
     },
     {
-      "height": 2756320,
-      "lockbox_zatoshis": 561018750000,
-      "orchard_zatoshis": 76296991947571,
-      "sapling_zatoshis": 103385512587867,
+      "height": 2756421,
+      "lockbox_zatoshis": 562912500000,
+      "orchard_zatoshis": 76824164686258,
+      "sapling_zatoshis": 103412036809645,
       "sprout_zatoshis": 0,
-      "timestamp": 1734615842,
-      "transparent_zatoshis": 1399431632964562
+      "timestamp": 1734623177,
+      "transparent_zatoshis": 1398891823504097
     },
     {
       "height": 2772484,
@@ -1959,13 +1959,13 @@
       "transparent_zatoshis": 1388855776922430
     },
     {
-      "height": 2805504,
-      "lockbox_zatoshis": 1483218750000,
-      "orchard_zatoshis": 101914614439160,
-      "sapling_zatoshis": 85124307403713,
+      "height": 2805561,
+      "lockbox_zatoshis": 1484287500000,
+      "orchard_zatoshis": 101951345520688,
+      "sapling_zatoshis": 85132490568146,
       "sprout_zatoshis": 0,
-      "timestamp": 1738324527,
-      "transparent_zatoshis": 1398838640657127
+      "timestamp": 1738328744,
+      "transparent_zatoshis": 1398801563911166
     },
     {
       "height": 2821871,
@@ -1977,13 +1977,13 @@
       "transparent_zatoshis": 1399294055051895
     },
     {
-      "height": 2838264,
-      "lockbox_zatoshis": 2097468750000,
-      "orchard_zatoshis": 118114684418251,
-      "sapling_zatoshis": 87364274003734,
+      "height": 2838384,
+      "lockbox_zatoshis": 2099718750000,
+      "orchard_zatoshis": 118113118504065,
+      "sapling_zatoshis": 87371878088862,
       "sprout_zatoshis": 0,
-      "timestamp": 1740793229,
-      "transparent_zatoshis": 1384902479078015
+      "timestamp": 1740801990,
+      "transparent_zatoshis": 1384913565907073
     },
     {
       "height": 2854579,
@@ -1995,13 +1995,13 @@
       "transparent_zatoshis": 1344204323322107
     },
     {
-      "height": 2871090,
-      "lockbox_zatoshis": 2712956250000,
-      "orchard_zatoshis": 178570894587260,
-      "sapling_zatoshis": 88153449702823,
+      "height": 2871174,
+      "lockbox_zatoshis": 2714531250000,
+      "orchard_zatoshis": 178471807759260,
+      "sapling_zatoshis": 88124842600262,
       "sprout_zatoshis": 0,
-      "timestamp": 1743267125,
-      "transparent_zatoshis": 1328171293209917
+      "timestamp": 1743273029,
+      "transparent_zatoshis": 1328310537140478
     },
     {
       "height": 2887488,
@@ -2013,22 +2013,22 @@
       "transparent_zatoshis": 1320701041728023
     },
     {
-      "height": 2903615,
-      "lockbox_zatoshis": 3322800000000,
-      "orchard_zatoshis": 190914108757688,
-      "sapling_zatoshis": 84101151967324,
+      "height": 2903914,
+      "lockbox_zatoshis": 3328406250000,
+      "orchard_zatoshis": 190941708650211,
+      "sapling_zatoshis": 84106381856733,
       "sprout_zatoshis": 0,
-      "timestamp": 1745719480,
-      "transparent_zatoshis": 1324352564274988
+      "timestamp": 1745741969,
+      "transparent_zatoshis": 1324360846993056
     },
     {
-      "height": 2920281,
-      "lockbox_zatoshis": 3635287500000,
-      "orchard_zatoshis": 207268665658567,
-      "sapling_zatoshis": 83042114917955,
+      "height": 2920320,
+      "lockbox_zatoshis": 3636018750000,
+      "orchard_zatoshis": 207275359788167,
+      "sapling_zatoshis": 83042349898487,
       "sprout_zatoshis": 0,
-      "timestamp": 1746974877,
-      "transparent_zatoshis": 1311348619423478
+      "timestamp": 1746977831,
+      "transparent_zatoshis": 1311347052813346
     },
     {
       "height": 2936571,
@@ -2040,13 +2040,13 @@
       "transparent_zatoshis": 1300019083540916
     },
     {
-      "height": 2953002,
-      "lockbox_zatoshis": 4248806250000,
-      "orchard_zatoshis": 228783237610269,
-      "sapling_zatoshis": 82899368473693,
+      "height": 2953110,
+      "lockbox_zatoshis": 4250831250000,
+      "orchard_zatoshis": 229096014473456,
+      "sapling_zatoshis": 82880768118082,
       "sprout_zatoshis": 0,
-      "timestamp": 1749441049,
-      "transparent_zatoshis": 1294475931416038
+      "timestamp": 1749449239,
+      "transparent_zatoshis": 1294196604908462
     },
     {
       "height": 2969460,
@@ -2058,22 +2058,22 @@
       "transparent_zatoshis": 1295702889056564
     },
     {
-      "height": 2985840,
-      "lockbox_zatoshis": 4864518750000,
-      "orchard_zatoshis": 228862003661245,
-      "sapling_zatoshis": 84503648739550,
+      "height": 2985906,
+      "lockbox_zatoshis": 4865756250000,
+      "orchard_zatoshis": 228857634907464,
+      "sapling_zatoshis": 84507275175622,
       "sprout_zatoshis": 0,
-      "timestamp": 1751916173,
-      "transparent_zatoshis": 1297307485099205
+      "timestamp": 1751920696,
+      "transparent_zatoshis": 1297317927416914
     },
     {
-      "height": 3002052,
-      "lockbox_zatoshis": 5168493750000,
-      "orchard_zatoshis": 230713525764955,
-      "sapling_zatoshis": 83998179297637,
+      "height": 3002267,
+      "lockbox_zatoshis": 5172525000000,
+      "orchard_zatoshis": 230757849494896,
+      "sapling_zatoshis": 83990864258348,
       "sprout_zatoshis": 0,
-      "timestamp": 1753138804,
-      "transparent_zatoshis": 1298191207437408
+      "timestamp": 1753154570,
+      "transparent_zatoshis": 1298183761246756
     },
     {
       "height": 3018528,
@@ -2085,13 +2085,13 @@
       "transparent_zatoshis": 1295611502204146
     },
     {
-      "height": 3034975,
-      "lockbox_zatoshis": 5785800000000,
-      "orchard_zatoshis": 265542881634888,
-      "sapling_zatoshis": 87394385894299,
+      "height": 3035046,
+      "lockbox_zatoshis": 5787131250000,
+      "orchard_zatoshis": 265499608087793,
+      "sapling_zatoshis": 87285541720184,
       "sprout_zatoshis": 0,
-      "timestamp": 1755619980,
-      "transparent_zatoshis": 1264492557470813
+      "timestamp": 1755624730,
+      "transparent_zatoshis": 1264654437692023
     },
     {
       "height": 3051246,
@@ -2112,13 +2112,13 @@
       "transparent_zatoshis": 1244696056653917
     },
     {
-      "height": 3084133,
-      "lockbox_zatoshis": 6707512500000,
-      "orchard_zatoshis": 295255316276540,
-      "sapling_zatoshis": 82490910302837,
+      "height": 3084250,
+      "lockbox_zatoshis": 6709706250000,
+      "orchard_zatoshis": 295233443452397,
+      "sapling_zatoshis": 82395077217946,
       "sprout_zatoshis": 0,
-      "timestamp": 1759323145,
-      "transparent_zatoshis": 1246442823420623
+      "timestamp": 1759331995,
+      "transparent_zatoshis": 1246576616829657
     },
     {
       "height": 3100620,
@@ -2130,13 +2130,13 @@
       "transparent_zatoshis": 1177587180685265
     },
     {
-      "height": 3116982,
-      "lockbox_zatoshis": 7323431250000,
-      "orchard_zatoshis": 416234079473150,
-      "sapling_zatoshis": 75550561866572,
+      "height": 3117088,
+      "lockbox_zatoshis": 7325418750000,
+      "orchard_zatoshis": 416279775777040,
+      "sapling_zatoshis": 75537217095763,
       "sprout_zatoshis": 0,
-      "timestamp": 1761798149,
-      "transparent_zatoshis": 1136921146160278
+      "timestamp": 1761805503,
+      "transparent_zatoshis": 1136903369627197
     },
     {
       "height": 3133416,
@@ -2148,49 +2148,49 @@
       "transparent_zatoshis": 1157475378407522
     },
     {
-      "height": 3149804,
-      "lockbox_zatoshis": 63843750000,
-      "orchard_zatoshis": 414031982997298,
-      "sapling_zatoshis": 64469109447506,
+      "height": 3149835,
+      "lockbox_zatoshis": 64425000000,
+      "orchard_zatoshis": 413967999940210,
+      "sapling_zatoshis": 64470390866865,
       "sprout_zatoshis": 0,
-      "timestamp": 1764271064,
-      "transparent_zatoshis": 1162592720055196
+      "timestamp": 1764273489,
+      "transparent_zatoshis": 1162659684192925
     },
     {
-      "height": 3166080,
-      "lockbox_zatoshis": 369018750000,
-      "orchard_zatoshis": 416502460707151,
-      "sapling_zatoshis": 64088483985549,
+      "height": 3166274,
+      "lockbox_zatoshis": 372656250000,
+      "orchard_zatoshis": 417026243870132,
+      "sapling_zatoshis": 64087901775058,
       "sprout_zatoshis": 0,
-      "timestamp": 1765497629,
-      "transparent_zatoshis": 1162740817807300
+      "timestamp": 1765512379,
+      "transparent_zatoshis": 1162243666854810
     },
     {
-      "height": 3182570,
-      "lockbox_zatoshis": 678206250000,
-      "orchard_zatoshis": 438327814174527,
-      "sapling_zatoshis": 62737313260299,
+      "height": 3182652,
+      "lockbox_zatoshis": 679743750000,
+      "orchard_zatoshis": 438321194320063,
+      "sapling_zatoshis": 62747614892931,
       "sprout_zatoshis": 0,
-      "timestamp": 1766740657,
-      "transparent_zatoshis": 1144534010065174
+      "timestamp": 1766745970,
+      "transparent_zatoshis": 1144541603287006
     },
     {
-      "height": 3198973,
-      "lockbox_zatoshis": 985762500000,
-      "orchard_zatoshis": 423704361828333,
-      "sapling_zatoshis": 62251841990828,
+      "height": 3199060,
+      "lockbox_zatoshis": 987393750000,
+      "orchard_zatoshis": 423707401697905,
+      "sapling_zatoshis": 62242351393165,
       "sprout_zatoshis": 0,
-      "timestamp": 1767977051,
-      "transparent_zatoshis": 1161898346180839
+      "timestamp": 1767984013,
+      "transparent_zatoshis": 1161916759408930
     },
     {
-      "height": 3215301,
-      "lockbox_zatoshis": 1291912500000,
-      "orchard_zatoshis": 433619690454915,
-      "sapling_zatoshis": 61928917828459,
+      "height": 3215415,
+      "lockbox_zatoshis": 1294050000000,
+      "orchard_zatoshis": 433613648602549,
+      "sapling_zatoshis": 61922477400613,
       "sprout_zatoshis": 0,
-      "timestamp": 1769207718,
-      "transparent_zatoshis": 1154550416716626
+      "timestamp": 1769215844,
+      "transparent_zatoshis": 1154579198996838
     },
     {
       "height": 3231720,
@@ -2202,156 +2202,156 @@
       "transparent_zatoshis": 1152758493689080
     },
     {
-      "height": 3247947,
-      "lockbox_zatoshis": 1904025000000,
-      "orchard_zatoshis": 439079828629529,
-      "sapling_zatoshis": 61952839810976,
+      "height": 3248180,
+      "lockbox_zatoshis": 1908393750000,
+      "orchard_zatoshis": 439060727549580,
+      "sapling_zatoshis": 61949522277457,
       "sprout_zatoshis": 0,
-      "timestamp": 1771667223,
-      "transparent_zatoshis": 1153555806559495
+      "timestamp": 1771685071,
+      "transparent_zatoshis": 1153610262672963
     },
     {
-      "height": 3264570,
-      "lockbox_zatoshis": 2215706250000,
-      "orchard_zatoshis": 439751941573673,
-      "sapling_zatoshis": 61728769715349,
+      "height": 3264588,
+      "lockbox_zatoshis": 2216043750000,
+      "orchard_zatoshis": 439750046635268,
+      "sapling_zatoshis": 61728519690349,
       "sprout_zatoshis": 0,
-      "timestamp": 1772919692,
-      "transparent_zatoshis": 1155393426210978
+      "timestamp": 1772921369,
+      "transparent_zatoshis": 1155397421174383
     },
     {
-      "height": 3280956,
-      "lockbox_zatoshis": 2522943750000,
-      "orchard_zatoshis": 451235861720157,
-      "sapling_zatoshis": 61642664364160,
+      "height": 3280992,
+      "lockbox_zatoshis": 2523618750000,
+      "orchard_zatoshis": 451236069742163,
+      "sapling_zatoshis": 61632569317318,
       "sprout_zatoshis": 0,
-      "timestamp": 1774154712,
-      "transparent_zatoshis": 1146248686415683
+      "timestamp": 1774157412,
+      "transparent_zatoshis": 1146262898440519
     },
     {
-      "height": 3297372,
-      "lockbox_zatoshis": 2830743750000,
-      "orchard_zatoshis": 453749176911768,
-      "sapling_zatoshis": 61208079290974,
+      "height": 3297443,
+      "lockbox_zatoshis": 2832075000000,
+      "orchard_zatoshis": 453749884128376,
+      "sapling_zatoshis": 61202061448090,
       "sprout_zatoshis": 2540942009822,
-      "timestamp": 1775391281,
-      "transparent_zatoshis": 1143848730841916
+      "timestamp": 1775397041,
+      "transparent_zatoshis": 1143863803968192
     },
     {
-      "height": 3313752,
-      "lockbox_zatoshis": 3137868750000,
-      "orchard_zatoshis": 453979778810610,
-      "sapling_zatoshis": 59992406342681,
+      "height": 3313834,
+      "lockbox_zatoshis": 3139406250000,
+      "orchard_zatoshis": 454016472826560,
+      "sapling_zatoshis": 59984143207715,
       "sprout_zatoshis": 2540941766914,
-      "timestamp": 1776626780,
-      "transparent_zatoshis": 1147086052134275
+      "timestamp": 1776632585,
+      "transparent_zatoshis": 1147068896253291
     },
     {
-      "height": 3330141,
-      "lockbox_zatoshis": 3445162500000,
-      "orchard_zatoshis": 453096684627475,
-      "sapling_zatoshis": 59986453881660,
+      "height": 3330225,
+      "lockbox_zatoshis": 3446737500000,
+      "orchard_zatoshis": 452982922608214,
+      "sapling_zatoshis": 59986809060242,
       "sprout_zatoshis": 2540941766914,
-      "timestamp": 1777862244,
-      "transparent_zatoshis": 1150228586278431
+      "timestamp": 1777868065,
+      "transparent_zatoshis": 1150353543119110
     },
     {
-      "height": 3346537,
-      "lockbox_zatoshis": 3752587500000,
-      "orchard_zatoshis": 452947002538354,
-      "sapling_zatoshis": 59522301729114,
+      "height": 3346622,
+      "lockbox_zatoshis": 3754181250000,
+      "orchard_zatoshis": 452941458470682,
+      "sapling_zatoshis": 59530848181644,
       "sprout_zatoshis": 2540941766914,
-      "timestamp": 1779097716,
-      "transparent_zatoshis": 1153096870520098
+      "timestamp": 1779103589,
+      "transparent_zatoshis": 1153105555635240
     },
     {
-      "height": 3362937,
-      "lockbox_zatoshis": 4060087500000,
-      "orchard_zatoshis": 451339798885905,
-      "sapling_zatoshis": 59165058231987,
+      "height": 3363006,
+      "lockbox_zatoshis": 4061381250000,
+      "orchard_zatoshis": 450897456433053,
+      "sapling_zatoshis": 59175096451653,
       "sprout_zatoshis": 2540941766914,
-      "timestamp": 1780333157,
-      "transparent_zatoshis": 1157316317669674
+      "timestamp": 1780339075,
+      "transparent_zatoshis": 1157758109402860
     },
     {
-      "height": 3379319,
-      "lockbox_zatoshis": 4367250000000,
-      "orchard_zatoshis": 372985203211233,
-      "sapling_zatoshis": 63005567929617,
+      "height": 3379396,
+      "lockbox_zatoshis": 4368693750000,
+      "orchard_zatoshis": 372983176382081,
+      "sapling_zatoshis": 63009449008127,
       "sprout_zatoshis": 2540941766914,
-      "timestamp": 1781568670,
-      "transparent_zatoshis": 1234082928646716
+      "timestamp": 1781574565,
+      "transparent_zatoshis": 1234091661897358
     },
     {
-      "height": 3395713,
-      "lockbox_zatoshis": 4674637500000,
-      "orchard_zatoshis": 378824101539882,
-      "sapling_zatoshis": 62097011941288,
+      "height": 3395802,
+      "lockbox_zatoshis": 4676306250000,
+      "orchard_zatoshis": 378821047571222,
+      "sapling_zatoshis": 62088639152013,
       "sprout_zatoshis": 2540941766914,
-      "timestamp": 1782804125,
-      "transparent_zatoshis": 1231406761306396
+      "timestamp": 1782810067,
+      "transparent_zatoshis": 1231430425564331
     },
     {
-      "height": 3412114,
-      "lockbox_zatoshis": 4982156250000,
-      "orchard_zatoshis": 376963324463685,
-      "sapling_zatoshis": 59328147354680,
+      "height": 3412191,
+      "lockbox_zatoshis": 4983600000000,
+      "orchard_zatoshis": 377023186446985,
+      "sapling_zatoshis": 59331918273135,
       "sprout_zatoshis": 2540941766914,
-      "timestamp": 1784039542,
-      "transparent_zatoshis": 1238291540469201
+      "timestamp": 1784045577,
+      "transparent_zatoshis": 1238238495067446
     },
     {
-      "height": 3428505,
-      "lockbox_zatoshis": 5289487500000,
-      "orchard_zatoshis": 354422802057340,
-      "sapling_zatoshis": 58799293946780,
+      "height": 3428576,
+      "lockbox_zatoshis": 5290818750000,
+      "orchard_zatoshis": 354041976455092,
+      "sapling_zatoshis": 58798416948552,
       "sprout_zatoshis": 2263726786698,
-      "timestamp": 1785275010,
-      "transparent_zatoshis": 1251005152728257
+      "timestamp": 1785281092,
+      "transparent_zatoshis": 1250999612062554
     },
     {
-      "height": 3444913,
-      "lockbox_zatoshis": 5597137500000,
-      "orchard_zatoshis": 118252166767629,
-      "sapling_zatoshis": 53970609585649,
+      "height": 3444993,
+      "lockbox_zatoshis": 5598637500000,
+      "orchard_zatoshis": 118051886932217,
+      "sapling_zatoshis": 53977353199912,
       "sprout_zatoshis": 2262126786698,
-      "timestamp": 1786510577,
-      "transparent_zatoshis": 1244908460540019
+      "timestamp": 1786516479,
+      "transparent_zatoshis": 1244866522069636
     },
     {
-      "height": 3444915,
-      "lockbox_zatoshis": 5597175000000,
-      "orchard_zatoshis": 118252101717629,
-      "sapling_zatoshis": 53970609585649,
+      "height": 3444997,
+      "lockbox_zatoshis": 5598712500000,
+      "orchard_zatoshis": 118051886084711,
+      "sapling_zatoshis": 53977353199912,
       "sprout_zatoshis": 2262126786698,
-      "timestamp": 1786510718,
-      "transparent_zatoshis": 1244908735590019
+      "timestamp": 1786516855,
+      "transparent_zatoshis": 1244866648589702
     }
   ],
   "integrity": {
-    "difference_zatoshis": 262240517874485,
+    "difference_zatoshis": 262487351893457,
     "status": "ALERT",
-    "sum_of_pools_zatoshis": 1424990748679995,
-    "supply_emitted_zatoshis": 1687231266554480
+    "sum_of_pools_zatoshis": 1424756727161023,
+    "supply_emitted_zatoshis": 1687244079054480
   },
   "patch": {
     "block": 3363426,
-    "current_orchard_balance_zatoshis": 118252101717629,
-    "daily_change_reference_height": 3443753,
-    "daily_change_zatoshis": -12126102588052,
+    "current_orchard_balance_zatoshis": 118051886084711,
+    "daily_change_reference_height": 3443855,
+    "daily_change_zatoshis": -12131968894071,
     "hash": "0000000000ad6afa448fea15355139bb30d7504de66a1f5de02c7da046907482",
-    "moved_since_patch_zatoshis": 332406562892253,
-    "net_change_pct": -73.76016240140521,
-    "net_change_zatoshis": -332406562892253,
+    "moved_since_patch_zatoshis": 332606778525171,
+    "net_change_pct": -73.80458973602471,
+    "net_change_zatoshis": -332606778525171,
     "orchard_balance_zatoshis": 450658664609882,
     "orchard_value_delta_zatoshis": 0,
-    "percent_moved_since_patch": 73.76016240140521,
+    "percent_moved_since_patch": 73.80458973602471,
     "source": "Blockchair raw block",
     "source_url": "https://api.blockchair.com/zcash/raw/block/3363426",
     "timestamp": 1780371007,
     "value_delta_available": true,
-    "weekly_change_reference_height": 3436887,
-    "weekly_change_zatoshis": -138635482838213
+    "weekly_change_reference_height": 3435814,
+    "weekly_change_zatoshis": -162133843344315
   },
   "schema_version": 1,
   "share_history": [
@@ -2370,10 +2370,10 @@
       "transparent_pct": 100.0
     },
     {
-      "height": 24862,
+      "height": 24945,
       "orchard_pct": 0.0,
       "sapling_pct": 0.0,
-      "timestamp": 1481333348,
+      "timestamp": 1481347807,
       "transparent_pct": 100.0
     },
     {
@@ -2629,10 +2629,10 @@
       "transparent_pct": 100.0
     },
     {
-      "height": 328138,
+      "height": 328151,
       "orchard_pct": 0.0,
       "sapling_pct": 0.0,
-      "timestamp": 1527058608,
+      "timestamp": 1527060751,
       "transparent_pct": 100.0
     },
     {
@@ -2643,10 +2643,10 @@
       "transparent_pct": 100.0
     },
     {
-      "height": 344448,
+      "height": 344556,
       "orchard_pct": 0.0,
       "sapling_pct": 0.0,
-      "timestamp": 1529516040,
+      "timestamp": 1529531731,
       "transparent_pct": 100.0
     },
     {
@@ -2685,10 +2685,10 @@
       "transparent_pct": 100.0
     },
     {
-      "height": 393537,
+      "height": 393760,
       "orchard_pct": 0.0,
       "sapling_pct": 0.0,
-      "timestamp": 1536910378,
+      "timestamp": 1536944405,
       "transparent_pct": 100.0
     },
     {
@@ -2713,11 +2713,11 @@
       "transparent_pct": 100.0
     },
     {
-      "height": 426537,
+      "height": 426558,
       "orchard_pct": 0.0,
-      "sapling_pct": 0.45537669258449404,
-      "timestamp": 1541883336,
-      "transparent_pct": 99.5446233074155
+      "sapling_pct": 0.45535090750934737,
+      "timestamp": 1541886164,
+      "transparent_pct": 99.54464909249066
     },
     {
       "height": 434684,
@@ -2776,18 +2776,18 @@
       "transparent_pct": 98.03516800837644
     },
     {
-      "height": 500253,
+      "height": 500342,
       "orchard_pct": 0.0,
-      "sapling_pct": 2.003175520686011,
-      "timestamp": 1552992899,
-      "transparent_pct": 97.996824479314
+      "sapling_pct": 2.0000332063993507,
+      "timestamp": 1553006648,
+      "transparent_pct": 97.99996679360065
     },
     {
-      "height": 508508,
+      "height": 508528,
       "orchard_pct": 0.0,
-      "sapling_pct": 1.950106725317291,
-      "timestamp": 1554236557,
-      "transparent_pct": 98.0498932746827
+      "sapling_pct": 1.9474390242710053,
+      "timestamp": 1554241250,
+      "transparent_pct": 98.052560975729
     },
     {
       "height": 516722,
@@ -2874,11 +2874,11 @@
       "transparent_pct": 97.10536055373393
     },
     {
-      "height": 615077,
+      "height": 615123,
       "orchard_pct": 0.0,
-      "sapling_pct": 2.9576280844675855,
-      "timestamp": 1570296524,
-      "transparent_pct": 97.04237191553241
+      "sapling_pct": 2.957932902615181,
+      "timestamp": 1570302756,
+      "transparent_pct": 97.04206709738482
     },
     {
       "height": 623322,
@@ -2923,25 +2923,25 @@
       "transparent_pct": 96.82293980084611
     },
     {
-      "height": 691335,
+      "height": 691418,
       "orchard_pct": 0.0,
-      "sapling_pct": 3.2707416730098418,
-      "timestamp": 1578946419,
-      "transparent_pct": 96.72925832699016
+      "sapling_pct": 3.264432039839761,
+      "timestamp": 1578951840,
+      "transparent_pct": 96.73556796016024
     },
     {
-      "height": 707691,
+      "height": 707816,
       "orchard_pct": 0.0,
-      "sapling_pct": 2.541251814780514,
-      "timestamp": 1580177779,
-      "transparent_pct": 97.45874818521949
+      "sapling_pct": 2.541820626780904,
+      "timestamp": 1580186779,
+      "transparent_pct": 97.4581793732191
     },
     {
-      "height": 724176,
+      "height": 724206,
       "orchard_pct": 0.0,
-      "sapling_pct": 3.3402886047935123,
-      "timestamp": 1581419883,
-      "transparent_pct": 96.6597113952065
+      "sapling_pct": 3.3220171896213895,
+      "timestamp": 1581422277,
+      "transparent_pct": 96.67798281037861
     },
     {
       "height": 740458,
@@ -2958,11 +2958,11 @@
       "transparent_pct": 96.95394036890686
     },
     {
-      "height": 773372,
+      "height": 773381,
       "orchard_pct": 0.0,
-      "sapling_pct": 3.4749088770389194,
-      "timestamp": 1585127492,
-      "transparent_pct": 96.52509112296109
+      "sapling_pct": 3.4744759820257674,
+      "timestamp": 1585128310,
+      "transparent_pct": 96.52552401797423
     },
     {
       "height": 789693,
@@ -3000,11 +3000,11 @@
       "transparent_pct": 96.3936378371231
     },
     {
-      "height": 871728,
+      "height": 871774,
       "orchard_pct": 0.0,
-      "sapling_pct": 4.122840592109977,
-      "timestamp": 1592539711,
-      "transparent_pct": 95.87715940789002
+      "sapling_pct": 4.123317235409201,
+      "timestamp": 1592542850,
+      "transparent_pct": 95.87668276459081
     },
     {
       "height": 888042,
@@ -3028,11 +3028,11 @@
       "transparent_pct": 96.68260071442401
     },
     {
-      "height": 937296,
+      "height": 937335,
       "orchard_pct": 0.0,
-      "sapling_pct": 4.24640527059035,
-      "timestamp": 1597481431,
-      "transparent_pct": 95.75359472940966
+      "sapling_pct": 4.246341728536791,
+      "timestamp": 1597484777,
+      "transparent_pct": 95.75365827146321
     },
     {
       "height": 953680,
@@ -3063,11 +3063,11 @@
       "transparent_pct": 95.25436357899129
     },
     {
-      "height": 1019235,
+      "height": 1019310,
       "orchard_pct": 0.0,
-      "sapling_pct": 5.2171001547753315,
-      "timestamp": 1603656526,
-      "transparent_pct": 94.78289984522466
+      "sapling_pct": 5.202991150596668,
+      "timestamp": 1603661512,
+      "transparent_pct": 94.79700884940333
     },
     {
       "height": 1035645,
@@ -3098,11 +3098,11 @@
       "transparent_pct": 94.07308959302102
     },
     {
-      "height": 1101217,
+      "height": 1101240,
       "orchard_pct": 0.0,
-      "sapling_pct": 5.8674967879684905,
-      "timestamp": 1609837031,
-      "transparent_pct": 94.13250321203151
+      "sapling_pct": 5.868363982221004,
+      "timestamp": 1609838969,
+      "transparent_pct": 94.131636017779
     },
     {
       "height": 1117536,
@@ -3112,11 +3112,11 @@
       "transparent_pct": 94.45686637552798
     },
     {
-      "height": 1133955,
+      "height": 1134006,
       "orchard_pct": 0.0,
-      "sapling_pct": 5.800394108914148,
-      "timestamp": 1612305938,
-      "transparent_pct": 94.19960589108585
+      "sapling_pct": 5.794071855367737,
+      "timestamp": 1612310008,
+      "transparent_pct": 94.20592814463227
     },
     {
       "height": 1150230,
@@ -3147,11 +3147,11 @@
       "transparent_pct": 94.61473181596295
     },
     {
-      "height": 1215832,
+      "height": 1215942,
       "orchard_pct": 0.0,
-      "sapling_pct": 5.2736878757688075,
-      "timestamp": 1618479477,
-      "transparent_pct": 94.7263121242312
+      "sapling_pct": 5.275178400498149,
+      "timestamp": 1618487932,
+      "transparent_pct": 94.72482159950185
     },
     {
       "height": 1232283,
@@ -3161,25 +3161,25 @@
       "transparent_pct": 94.96914409424953
     },
     {
-      "height": 1248624,
+      "height": 1248696,
       "orchard_pct": 0.0,
-      "sapling_pct": 4.934720262057999,
-      "timestamp": 1620953440,
-      "transparent_pct": 95.06527973794199
+      "sapling_pct": 4.935196409449426,
+      "timestamp": 1620958877,
+      "transparent_pct": 95.06480359055057
     },
     {
-      "height": 1264947,
+      "height": 1265061,
       "orchard_pct": 0.0,
-      "sapling_pct": 5.054830553849218,
-      "timestamp": 1622185096,
-      "transparent_pct": 94.94516944615079
+      "sapling_pct": 5.054023660428003,
+      "timestamp": 1622193758,
+      "transparent_pct": 94.94597633957198
     },
     {
-      "height": 1281360,
+      "height": 1281420,
       "orchard_pct": 0.0,
-      "sapling_pct": 5.783684087105831,
-      "timestamp": 1623423998,
-      "transparent_pct": 94.21631591289416
+      "sapling_pct": 5.784354903147646,
+      "timestamp": 1623428025,
+      "transparent_pct": 94.21564509685236
     },
     {
       "height": 1297764,
@@ -3189,18 +3189,18 @@
       "transparent_pct": 94.15306185536662
     },
     {
-      "height": 1314048,
+      "height": 1314196,
       "orchard_pct": 0.0,
-      "sapling_pct": 5.801221493835594,
-      "timestamp": 1625888213,
-      "transparent_pct": 94.1987785061644
+      "sapling_pct": 5.799646281366746,
+      "timestamp": 1625899618,
+      "transparent_pct": 94.20035371863325
     },
     {
-      "height": 1330518,
+      "height": 1330575,
       "orchard_pct": 0.0,
-      "sapling_pct": 5.847390415882766,
-      "timestamp": 1627130986,
-      "transparent_pct": 94.15260958411723
+      "sapling_pct": 5.845420866079143,
+      "timestamp": 1627135140,
+      "transparent_pct": 94.15457913392086
     },
     {
       "height": 1346936,
@@ -3210,32 +3210,32 @@
       "transparent_pct": 93.9347707609416
     },
     {
-      "height": 1363023,
+      "height": 1363348,
       "orchard_pct": 0.0,
-      "sapling_pct": 7.155198614724087,
-      "timestamp": 1629582503,
-      "transparent_pct": 92.84480138527591
+      "sapling_pct": 7.159104682139522,
+      "timestamp": 1629606578,
+      "transparent_pct": 92.84089531786047
     },
     {
-      "height": 1379664,
+      "height": 1379730,
       "orchard_pct": 0.0,
-      "sapling_pct": 7.370465136652886,
-      "timestamp": 1630837174,
-      "transparent_pct": 92.62953486334712
+      "sapling_pct": 7.367972092640311,
+      "timestamp": 1630841934,
+      "transparent_pct": 92.6320279073597
     },
     {
-      "height": 1396008,
+      "height": 1396095,
       "orchard_pct": 0.0,
-      "sapling_pct": 7.3831980002146,
-      "timestamp": 1632070441,
-      "transparent_pct": 92.61680199978541
+      "sapling_pct": 7.383944149312763,
+      "timestamp": 1632077019,
+      "transparent_pct": 92.61605585068725
     },
     {
-      "height": 1412400,
+      "height": 1412460,
       "orchard_pct": 0.0,
-      "sapling_pct": 7.463244745697148,
-      "timestamp": 1633307692,
-      "transparent_pct": 92.53675525430285
+      "sapling_pct": 7.463504366584719,
+      "timestamp": 1633311930,
+      "transparent_pct": 92.53649563341529
     },
     {
       "height": 1428829,
@@ -3280,11 +3280,11 @@
       "transparent_pct": 93.12561088339044
     },
     {
-      "height": 1527104,
+      "height": 1527175,
       "orchard_pct": 0.0,
-      "sapling_pct": 6.645761648242643,
-      "timestamp": 1641956662,
-      "transparent_pct": 93.35423835175736
+      "sapling_pct": 6.646359226457639,
+      "timestamp": 1641961617,
+      "transparent_pct": 93.35364077354235
     },
     {
       "height": 1543464,
@@ -3294,11 +3294,11 @@
       "transparent_pct": 93.9863116737346
     },
     {
-      "height": 1559894,
+      "height": 1559954,
       "orchard_pct": 0.0,
-      "sapling_pct": 5.235081368767582,
-      "timestamp": 1644428874,
-      "transparent_pct": 94.76491863123242
+      "sapling_pct": 5.240343582559595,
+      "timestamp": 1644433160,
+      "transparent_pct": 94.75965641744041
     },
     {
       "height": 1575960,
@@ -3308,25 +3308,25 @@
       "transparent_pct": 94.20699299088159
     },
     {
-      "height": 1592631,
+      "height": 1592727,
       "orchard_pct": 0.0,
-      "sapling_pct": 5.569417913851305,
-      "timestamp": 1646896219,
-      "transparent_pct": 94.43058208614869
+      "sapling_pct": 5.5673448883885595,
+      "timestamp": 1646902769,
+      "transparent_pct": 94.43265511161144
     },
     {
-      "height": 1609092,
+      "height": 1609110,
       "orchard_pct": 0.0,
-      "sapling_pct": 5.528331831845279,
-      "timestamp": 1648136299,
-      "transparent_pct": 94.47166816815472
+      "sapling_pct": 5.529075166401947,
+      "timestamp": 1648138216,
+      "transparent_pct": 94.47092483359806
     },
     {
-      "height": 1625450,
+      "height": 1625505,
       "orchard_pct": 0.0,
-      "sapling_pct": 5.822187862053312,
-      "timestamp": 1649369971,
-      "transparent_pct": 94.17781213794669
+      "sapling_pct": 5.818613872475332,
+      "timestamp": 1649373864,
+      "transparent_pct": 94.18138612752468
     },
     {
       "height": 1641808,
@@ -3343,32 +3343,32 @@
       "transparent_pct": 93.842605887029
     },
     {
-      "height": 1674567,
+      "height": 1674660,
       "orchard_pct": 0.0,
-      "sapling_pct": 6.271923991657246,
-      "timestamp": 1653074181,
-      "transparent_pct": 93.72807600834275
+      "sapling_pct": 6.270923001968286,
+      "timestamp": 1653080197,
+      "transparent_pct": 93.72907699803172
     },
     {
-      "height": 1690776,
-      "orchard_pct": 0.025828127515002953,
-      "sapling_pct": 6.385383806648232,
-      "timestamp": 1654295752,
-      "transparent_pct": 93.58878806583677
+      "height": 1691058,
+      "orchard_pct": 0.02587147588352672,
+      "sapling_pct": 6.383562781891121,
+      "timestamp": 1654317087,
+      "transparent_pct": 93.59056574222535
     },
     {
-      "height": 1707336,
-      "orchard_pct": 0.07451404361220103,
-      "sapling_pct": 6.427729070496459,
-      "timestamp": 1655543749,
-      "transparent_pct": 93.49775688589133
+      "height": 1707420,
+      "orchard_pct": 0.07451247153596063,
+      "sapling_pct": 6.428470885085315,
+      "timestamp": 1655550176,
+      "transparent_pct": 93.49701664337873
     },
     {
-      "height": 1723680,
-      "orchard_pct": 0.07546628776685707,
-      "sapling_pct": 6.3221375721667865,
-      "timestamp": 1656778053,
-      "transparent_pct": 93.60239614006636
+      "height": 1723815,
+      "orchard_pct": 0.07546376438462404,
+      "sapling_pct": 6.3219562299294445,
+      "timestamp": 1656787349,
+      "transparent_pct": 93.60258000568594
     },
     {
       "height": 1740154,
@@ -3378,39 +3378,39 @@
       "transparent_pct": 93.62884244347339
     },
     {
-      "height": 1756512,
-      "orchard_pct": 0.07741644655318415,
-      "sapling_pct": 6.204824333356681,
-      "timestamp": 1659252914,
-      "transparent_pct": 93.71775922009013
+      "height": 1756560,
+      "orchard_pct": 0.07741549552927487,
+      "sapling_pct": 6.205078524030099,
+      "timestamp": 1659256808,
+      "transparent_pct": 93.71750598044063
     },
     {
-      "height": 1772955,
-      "orchard_pct": 0.08940334525295139,
-      "sapling_pct": 6.167835223621181,
-      "timestamp": 1660491919,
-      "transparent_pct": 93.74276143112587
+      "height": 1772976,
+      "orchard_pct": 0.08940288481130296,
+      "sapling_pct": 6.167788463810803,
+      "timestamp": 1660493312,
+      "transparent_pct": 93.7428086513779
     },
     {
-      "height": 1789165,
-      "orchard_pct": 0.0900154579136037,
-      "sapling_pct": 6.291244165091041,
-      "timestamp": 1661713810,
-      "transparent_pct": 93.61874037699536
+      "height": 1789388,
+      "orchard_pct": 0.09001050730119564,
+      "sapling_pct": 6.279596121444634,
+      "timestamp": 1661730744,
+      "transparent_pct": 93.63039337125417
     },
     {
-      "height": 1805706,
-      "orchard_pct": 0.11296535063868235,
-      "sapling_pct": 6.4199956890306025,
-      "timestamp": 1662960179,
-      "transparent_pct": 93.46703896033071
+      "height": 1805760,
+      "orchard_pct": 0.1129638681168132,
+      "sapling_pct": 6.418866704242185,
+      "timestamp": 1662964216,
+      "transparent_pct": 93.468169427641
     },
     {
-      "height": 1822125,
-      "orchard_pct": 0.1237509387287365,
-      "sapling_pct": 6.5767429129025885,
-      "timestamp": 1664198172,
-      "transparent_pct": 93.29950614836868
+      "height": 1822145,
+      "orchard_pct": 0.12375033884509405,
+      "sapling_pct": 6.57789660433183,
+      "timestamp": 1664199490,
+      "transparent_pct": 93.29835305682307
     },
     {
       "height": 1838505,
@@ -3427,25 +3427,25 @@
       "transparent_pct": 92.87131349471301
     },
     {
-      "height": 1871280,
-      "orchard_pct": 0.12400200287352359,
-      "sapling_pct": 6.810086603420702,
-      "timestamp": 1667901937,
-      "transparent_pct": 93.06591139370578
+      "height": 1871352,
+      "orchard_pct": 0.12399986657714598,
+      "sapling_pct": 6.809239604525143,
+      "timestamp": 1667906827,
+      "transparent_pct": 93.0667605288977
     },
     {
-      "height": 1887600,
-      "orchard_pct": 0.14548296943438793,
-      "sapling_pct": 7.129116360756764,
-      "timestamp": 1669131497,
-      "transparent_pct": 92.72540066980885
+      "height": 1887730,
+      "orchard_pct": 0.14547839269846974,
+      "sapling_pct": 7.140113999329261,
+      "timestamp": 1669141160,
+      "transparent_pct": 92.71440760797228
     },
     {
-      "height": 1903986,
-      "orchard_pct": 0.15562210424232423,
-      "sapling_pct": 7.052271282161026,
-      "timestamp": 1670366010,
-      "transparent_pct": 92.79210661359664
+      "height": 1904135,
+      "orchard_pct": 0.15557867147966042,
+      "sapling_pct": 7.06534879389413,
+      "timestamp": 1670377766,
+      "transparent_pct": 92.77907253462621
     },
     {
       "height": 1920435,
@@ -3462,11 +3462,11 @@
       "transparent_pct": 92.40616643787455
     },
     {
-      "height": 1953133,
-      "orchard_pct": 0.2052885710398206,
-      "sapling_pct": 7.626456744502101,
-      "timestamp": 1674069845,
-      "transparent_pct": 92.16825468445808
+      "height": 1953341,
+      "orchard_pct": 0.2048859707924735,
+      "sapling_pct": 7.633971759609801,
+      "timestamp": 1674085372,
+      "transparent_pct": 92.16114226959773
     },
     {
       "height": 1969643,
@@ -3476,39 +3476,39 @@
       "transparent_pct": 92.20419907657099
     },
     {
-      "height": 1986008,
-      "orchard_pct": 0.3113355803738247,
-      "sapling_pct": 7.245169491948723,
-      "timestamp": 1676548463,
-      "transparent_pct": 92.44349492767745
+      "height": 1986108,
+      "orchard_pct": 0.3097201572741238,
+      "sapling_pct": 7.23803593790939,
+      "timestamp": 1676555458,
+      "transparent_pct": 92.45224390481648
     },
     {
-      "height": 2002410,
-      "orchard_pct": 0.3075780791528107,
-      "sapling_pct": 7.30403086995662,
-      "timestamp": 1677785072,
-      "transparent_pct": 92.38839105089058
+      "height": 2002497,
+      "orchard_pct": 0.2999938340377628,
+      "sapling_pct": 7.306470834712872,
+      "timestamp": 1677791297,
+      "transparent_pct": 92.39353533124937
     },
     {
-      "height": 2018745,
-      "orchard_pct": 0.3362225953748129,
-      "sapling_pct": 7.597483819588121,
-      "timestamp": 1679015798,
-      "transparent_pct": 92.06629358503706
+      "height": 2018882,
+      "orchard_pct": 0.34221051818270576,
+      "sapling_pct": 7.602278048964509,
+      "timestamp": 1679026211,
+      "transparent_pct": 92.05551143285278
     },
     {
-      "height": 2035245,
-      "orchard_pct": 0.39300591284143294,
-      "sapling_pct": 7.456973942892757,
-      "timestamp": 1680259240,
-      "transparent_pct": 92.15002014426581
+      "height": 2035278,
+      "orchard_pct": 0.39195753310503556,
+      "sapling_pct": 7.459097822178422,
+      "timestamp": 1680262317,
+      "transparent_pct": 92.14894464471655
     },
     {
-      "height": 2051489,
-      "orchard_pct": 0.4380634600410805,
-      "sapling_pct": 7.964950661190125,
-      "timestamp": 1681483676,
-      "transparent_pct": 91.5969858787688
+      "height": 2051660,
+      "orchard_pct": 0.42854475555284527,
+      "sapling_pct": 7.954532562482673,
+      "timestamp": 1681496376,
+      "transparent_pct": 91.61692268196448
     },
     {
       "height": 2067900,
@@ -3525,25 +3525,25 @@
       "transparent_pct": 90.68953963213885
     },
     {
-      "height": 2100756,
-      "orchard_pct": 0.6071787052481051,
-      "sapling_pct": 8.459910524061463,
-      "timestamp": 1685199476,
-      "transparent_pct": 90.93291077069043
+      "height": 2100826,
+      "orchard_pct": 0.6102154168731313,
+      "sapling_pct": 8.455012964488299,
+      "timestamp": 1685203933,
+      "transparent_pct": 90.93477161863856
     },
     {
-      "height": 2117157,
-      "orchard_pct": 0.6391053838491274,
-      "sapling_pct": 8.42646390803788,
-      "timestamp": 1686435273,
-      "transparent_pct": 90.93443070811298
+      "height": 2117219,
+      "orchard_pct": 0.6444133426819313,
+      "sapling_pct": 8.421727858971252,
+      "timestamp": 1686439606,
+      "transparent_pct": 90.93385879834682
     },
     {
-      "height": 2133207,
-      "orchard_pct": 0.6982655700000314,
-      "sapling_pct": 8.812110796827316,
-      "timestamp": 1687645009,
-      "transparent_pct": 90.48962363317266
+      "height": 2133617,
+      "orchard_pct": 0.6968585997740431,
+      "sapling_pct": 8.811869272856802,
+      "timestamp": 1687675718,
+      "transparent_pct": 90.49127212736916
     },
     {
       "height": 2149815,
@@ -3553,25 +3553,25 @@
       "transparent_pct": 90.85688071847959
     },
     {
-      "height": 2166216,
-      "orchard_pct": 0.6506936867898279,
-      "sapling_pct": 8.339414505398688,
-      "timestamp": 1690133700,
-      "transparent_pct": 91.00989180781148
+      "height": 2166398,
+      "orchard_pct": 0.6484791158890884,
+      "sapling_pct": 8.316195635158097,
+      "timestamp": 1690146967,
+      "transparent_pct": 91.03532524895282
     },
     {
-      "height": 2182700,
-      "orchard_pct": 0.6812386472594929,
-      "sapling_pct": 8.109896008332178,
-      "timestamp": 1691376043,
-      "transparent_pct": 91.20886534440832
+      "height": 2182752,
+      "orchard_pct": 0.6804389339743744,
+      "sapling_pct": 8.10939402818752,
+      "timestamp": 1691380217,
+      "transparent_pct": 91.2101670378381
     },
     {
-      "height": 2199078,
-      "orchard_pct": 0.6633905499112035,
-      "sapling_pct": 8.240573458578401,
-      "timestamp": 1692610528,
-      "transparent_pct": 91.09603599151039
+      "height": 2199168,
+      "orchard_pct": 0.6632152182991071,
+      "sapling_pct": 8.242855788048558,
+      "timestamp": 1692617865,
+      "transparent_pct": 91.09392899365234
     },
     {
       "height": 2215443,
@@ -3637,39 +3637,39 @@
       "transparent_pct": 91.38419614240058
     },
     {
-      "height": 2362932,
-      "orchard_pct": 0.9900516106729836,
-      "sapling_pct": 7.435993426373325,
-      "timestamp": 1704963687,
-      "transparent_pct": 91.57395496295369
+      "height": 2363017,
+      "orchard_pct": 0.9871786145581039,
+      "sapling_pct": 7.436021291988625,
+      "timestamp": 1704969990,
+      "transparent_pct": 91.57680009345327
     },
     {
-      "height": 2379357,
-      "orchard_pct": 0.9198971324962039,
-      "sapling_pct": 7.497101583756632,
-      "timestamp": 1706200567,
-      "transparent_pct": 91.58300128374717
+      "height": 2379430,
+      "orchard_pct": 0.9194035426116384,
+      "sapling_pct": 7.493173415208652,
+      "timestamp": 1706206703,
+      "transparent_pct": 91.58742304217971
     },
     {
-      "height": 2395710,
-      "orchard_pct": 0.903036787116796,
-      "sapling_pct": 7.382609074865637,
-      "timestamp": 1707434447,
-      "transparent_pct": 91.71435413801757
+      "height": 2395806,
+      "orchard_pct": 0.9022075975022088,
+      "sapling_pct": 7.381051225185257,
+      "timestamp": 1707441809,
+      "transparent_pct": 91.71674117731253
     },
     {
-      "height": 2412149,
-      "orchard_pct": 0.8987749784623146,
-      "sapling_pct": 7.463826990346611,
-      "timestamp": 1708673050,
-      "transparent_pct": 91.63739803119107
+      "height": 2412208,
+      "orchard_pct": 0.8988050538531371,
+      "sapling_pct": 7.464214509145266,
+      "timestamp": 1708677775,
+      "transparent_pct": 91.6369804370016
     },
     {
-      "height": 2428530,
-      "orchard_pct": 0.9294920982250645,
-      "sapling_pct": 6.942878010275089,
-      "timestamp": 1709908194,
-      "transparent_pct": 92.12762989149985
+      "height": 2428621,
+      "orchard_pct": 0.9283672524595717,
+      "sapling_pct": 6.934908797766921,
+      "timestamp": 1709914996,
+      "transparent_pct": 92.1367239497735
     },
     {
       "height": 2444940,
@@ -3679,39 +3679,39 @@
       "transparent_pct": 91.71056331762586
     },
     {
-      "height": 2461240,
-      "orchard_pct": 1.290764461619534,
-      "sapling_pct": 7.160782093984158,
-      "timestamp": 1712374527,
-      "transparent_pct": 91.5484534443963
+      "height": 2461383,
+      "orchard_pct": 1.2904660997481123,
+      "sapling_pct": 7.159466416986655,
+      "timestamp": 1712384543,
+      "transparent_pct": 91.55006748326522
     },
     {
-      "height": 2477540,
-      "orchard_pct": 1.2568866307318818,
-      "sapling_pct": 7.1053983249331525,
-      "timestamp": 1713603271,
-      "transparent_pct": 91.63771504433497
+      "height": 2477790,
+      "orchard_pct": 1.2567823268913738,
+      "sapling_pct": 7.088040054683923,
+      "timestamp": 1713621638,
+      "transparent_pct": 91.6551776184247
     },
     {
-      "height": 2494008,
-      "orchard_pct": 1.3147072332147338,
-      "sapling_pct": 6.987416800852815,
-      "timestamp": 1714844069,
-      "transparent_pct": 91.69787596593245
+      "height": 2494128,
+      "orchard_pct": 1.3164031808755277,
+      "sapling_pct": 6.996879925272194,
+      "timestamp": 1714853955,
+      "transparent_pct": 91.68671689385228
     },
     {
-      "height": 2510502,
-      "orchard_pct": 1.4423071996189136,
-      "sapling_pct": 6.8989237837588355,
-      "timestamp": 1716088169,
-      "transparent_pct": 91.65876901662226
+      "height": 2510508,
+      "orchard_pct": 1.4421144922244171,
+      "sapling_pct": 6.898926299538323,
+      "timestamp": 1716088492,
+      "transparent_pct": 91.65895920823726
     },
     {
-      "height": 2526744,
-      "orchard_pct": 2.3009674105052715,
-      "sapling_pct": 7.066339512288289,
-      "timestamp": 1717312151,
-      "transparent_pct": 90.63269307720644
+      "height": 2526912,
+      "orchard_pct": 2.3111154435445003,
+      "sapling_pct": 7.065277056021062,
+      "timestamp": 1717325553,
+      "transparent_pct": 90.62360750043443
     },
     {
       "height": 2543262,
@@ -3735,18 +3735,18 @@
       "transparent_pct": 88.56378979340884
     },
     {
-      "height": 2592376,
-      "orchard_pct": 3.206662100128256,
-      "sapling_pct": 6.504649374177851,
-      "timestamp": 1722259690,
-      "transparent_pct": 90.2886885256939
+      "height": 2592462,
+      "orchard_pct": 3.2066500802711095,
+      "sapling_pct": 6.507204082897297,
+      "timestamp": 1722266298,
+      "transparent_pct": 90.2861458368316
     },
     {
-      "height": 2608718,
-      "orchard_pct": 2.8836807322044375,
-      "sapling_pct": 6.219449007962349,
-      "timestamp": 1723491148,
-      "transparent_pct": 90.89687025983322
+      "height": 2608899,
+      "orchard_pct": 2.753855017201438,
+      "sapling_pct": 6.218804863738084,
+      "timestamp": 1723505211,
+      "transparent_pct": 91.02734011906047
     },
     {
       "height": 2625208,
@@ -3763,25 +3763,25 @@
       "transparent_pct": 90.39956749911853
     },
     {
-      "height": 2657880,
-      "orchard_pct": 3.230164773241304,
-      "sapling_pct": 6.208794219363196,
-      "timestamp": 1727196268,
-      "transparent_pct": 90.5610410073955
+      "height": 2658084,
+      "orchard_pct": 3.2308769858705046,
+      "sapling_pct": 6.208988916867002,
+      "timestamp": 1727212341,
+      "transparent_pct": 90.56013409726249
     },
     {
-      "height": 2674293,
-      "orchard_pct": 4.060252946133145,
-      "sapling_pct": 6.001559544557699,
-      "timestamp": 1728433488,
-      "transparent_pct": 89.93818750930916
+      "height": 2674440,
+      "orchard_pct": 4.058431502815,
+      "sapling_pct": 5.999433276132832,
+      "timestamp": 1728444977,
+      "transparent_pct": 89.94213522105217
     },
     {
-      "height": 2690740,
-      "orchard_pct": 4.209242055523308,
-      "sapling_pct": 6.316359077798656,
-      "timestamp": 1729673724,
-      "transparent_pct": 89.47439886667804
+      "height": 2690856,
+      "orchard_pct": 4.2095284023989645,
+      "sapling_pct": 6.305348080119046,
+      "timestamp": 1729682268,
+      "transparent_pct": 89.485123517482
     },
     {
       "height": 2707208,
@@ -3805,11 +3805,11 @@
       "transparent_pct": 88.98919824388992
     },
     {
-      "height": 2756320,
-      "orchard_pct": 4.829916558838139,
-      "sapling_pct": 6.544732452037446,
-      "timestamp": 1734615842,
-      "transparent_pct": 88.58983617155066
+      "height": 2756421,
+      "orchard_pct": 4.863240198607394,
+      "sapling_pct": 6.546346146247041,
+      "timestamp": 1734623177,
+      "transparent_pct": 88.55477931132317
     },
     {
       "height": 2772484,
@@ -3826,11 +3826,11 @@
       "transparent_pct": 87.63693556645453
     },
     {
-      "height": 2805504,
-      "orchard_pct": 6.420381279604579,
-      "sapling_pct": 5.362631382178922,
-      "timestamp": 1738324527,
-      "transparent_pct": 88.12354804152227
+      "height": 2805561,
+      "orchard_pct": 6.422659215652182,
+      "sapling_pct": 5.363116811322252,
+      "timestamp": 1738328744,
+      "transparent_pct": 88.12071787222949
     },
     {
       "height": 2821871,
@@ -3840,11 +3840,11 @@
       "transparent_pct": 88.01044739658496
     },
     {
-      "height": 2838264,
-      "orchard_pct": 7.4170329010127825,
-      "sapling_pct": 5.486055335543569,
-      "timestamp": 1740793229,
-      "transparent_pct": 86.96520083516899
+      "height": 2838384,
+      "orchard_pct": 7.416844331621785,
+      "sapling_pct": 5.486466083987304,
+      "timestamp": 1740801990,
+      "transparent_pct": 86.96483897112984
     },
     {
       "height": 2854579,
@@ -3854,11 +3854,11 @@
       "transparent_pct": 84.27461406711993
     },
     {
-      "height": 2871090,
-      "orchard_pct": 11.177386957346542,
-      "sapling_pct": 5.517837726192001,
-      "timestamp": 1743267125,
-      "transparent_pct": 83.13496174256024
+      "height": 2871174,
+      "orchard_pct": 11.171092985572246,
+      "sapling_pct": 5.5160017897861335,
+      "timestamp": 1743273029,
+      "transparent_pct": 83.14299446177819
     },
     {
       "height": 2887488,
@@ -3868,18 +3868,18 @@
       "transparent_pct": 82.53500546337533
     },
     {
-      "height": 2903615,
-      "orchard_pct": 11.912099926190558,
-      "sapling_pct": 5.247497592826064,
-      "timestamp": 1745719480,
-      "transparent_pct": 82.63307612939883
+      "height": 2903914,
+      "orchard_pct": 11.913474743369722,
+      "sapling_pct": 5.247670941512184,
+      "timestamp": 1745741969,
+      "transparent_pct": 82.63118421477512
     },
     {
-      "height": 2920281,
-      "orchard_pct": 12.91156491530886,
-      "sapling_pct": 5.1730137503463824,
-      "timestamp": 1746974877,
-      "transparent_pct": 81.68896524947094
+      "height": 2920320,
+      "orchard_pct": 12.911932904360008,
+      "sapling_pct": 5.173008751283631,
+      "timestamp": 1746977831,
+      "transparent_pct": 81.68855756690276
     },
     {
       "height": 2936571,
@@ -3889,11 +3889,11 @@
       "transparent_pct": 80.8550032055998
     },
     {
-      "height": 2953002,
-      "orchard_pct": 14.206544604890064,
-      "sapling_pct": 5.147726678931633,
-      "timestamp": 1749441049,
-      "transparent_pct": 80.38189445918181
+      "height": 2953110,
+      "orchard_pct": 14.225817756968329,
+      "sapling_pct": 5.1465177406741605,
+      "timestamp": 1749449239,
+      "transparent_pct": 80.36370726671065
     },
     {
       "height": 2969460,
@@ -3903,18 +3903,18 @@
       "transparent_pct": 80.32980989620825
     },
     {
-      "height": 2985840,
-      "orchard_pct": 14.166305735793339,
-      "sapling_pct": 5.230682702605682,
-      "timestamp": 1751916173,
-      "transparent_pct": 80.30190321348041
+      "height": 2985906,
+      "orchard_pct": 14.165939408621641,
+      "sapling_pct": 5.230871760995088,
+      "timestamp": 1751920696,
+      "transparent_pct": 80.302005921443
     },
     {
-      "height": 3002052,
-      "orchard_pct": 14.258550325640487,
-      "sapling_pct": 5.191252930691667,
-      "timestamp": 1753138804,
-      "transparent_pct": 80.23077364960439
+      "height": 3002267,
+      "orchard_pct": 14.260993538422785,
+      "sapling_pct": 5.190693079766023,
+      "timestamp": 1753154570,
+      "transparent_pct": 80.22864778532642
     },
     {
       "height": 3018528,
@@ -3924,11 +3924,11 @@
       "transparent_pct": 79.9441504857924
     },
     {
-      "height": 3034975,
-      "orchard_pct": 16.359063918873254,
-      "sapling_pct": 5.384028132078817,
-      "timestamp": 1755619980,
-      "transparent_pct": 77.90046731904845
+      "height": 3035046,
+      "orchard_pct": 16.356286218122786,
+      "sapling_pct": 5.3772859152663575,
+      "timestamp": 1755624730,
+      "transparent_pct": 77.90990766008935
     },
     {
       "height": 3051246,
@@ -3945,11 +3945,11 @@
       "transparent_pct": 76.43921562528374
     },
     {
-      "height": 3084133,
-      "orchard_pct": 18.10386526438828,
-      "sapling_pct": 5.058009943707696,
-      "timestamp": 1759323145,
-      "transparent_pct": 76.42684717600679
+      "height": 3084250,
+      "orchard_pct": 18.102321196216472,
+      "sapling_pct": 5.052077215049016,
+      "timestamp": 1759331995,
+      "transparent_pct": 76.43419407253506
     },
     {
       "height": 3100620,
@@ -3959,11 +3959,11 @@
       "transparent_pct": 72.09102498162892
     },
     {
-      "height": 3116982,
-      "orchard_pct": 25.44172651092207,
-      "sapling_pct": 4.6179225285655985,
-      "timestamp": 1761798149,
-      "transparent_pct": 69.49271645826332
+      "height": 3117088,
+      "orchard_pct": 25.44426204619939,
+      "sapling_pct": 4.61706010684186,
+      "timestamp": 1761805503,
+      "transparent_pct": 69.49092639440447
     },
     {
       "height": 3133416,
@@ -3973,39 +3973,39 @@
       "transparent_pct": 70.63822268818808
     },
     {
-      "height": 3149804,
-      "orchard_pct": 25.22804444902324,
-      "sapling_pct": 3.928270340267987,
-      "timestamp": 1764271064,
-      "transparent_pct": 70.83979504514444
+      "height": 3149835,
+      "orchard_pct": 25.224071348218718,
+      "sapling_pct": 3.928336826296299,
+      "timestamp": 1764273489,
+      "transparent_pct": 70.84366625443398
     },
     {
-      "height": 3166080,
-      "orchard_pct": 25.33931147677679,
-      "sapling_pct": 3.899035926527397,
-      "timestamp": 1765497629,
-      "transparent_pct": 70.73920211457586
+      "height": 3166274,
+      "orchard_pct": 25.370719336197862,
+      "sapling_pct": 3.898930085769757,
+      "timestamp": 1765512379,
+      "transparent_pct": 70.70767920598661
     },
     {
-      "height": 3182570,
-      "orchard_pct": 26.625393093005506,
-      "sapling_pct": 3.810859300134191,
-      "timestamp": 1766740657,
-      "transparent_pct": 69.5225512523958
+      "height": 3182652,
+      "orchard_pct": 26.62478376949616,
+      "sapling_pct": 3.8114553898482013,
+      "timestamp": 1766745970,
+      "transparent_pct": 69.52247141500855
     },
     {
-      "height": 3198973,
-      "orchard_pct": 25.697113214432825,
-      "sapling_pct": 3.775492479101308,
-      "timestamp": 1767977051,
-      "transparent_pct": 70.46760910516245
+      "height": 3199060,
+      "orchard_pct": 25.69708572068375,
+      "sapling_pct": 3.774885765029554,
+      "timestamp": 1767984013,
+      "transparent_pct": 70.46814487351917
     },
     {
-      "height": 3215301,
-      "orchard_pct": 26.257846074374196,
-      "sapling_pct": 3.750106435863797,
-      "timestamp": 1769207718,
-      "transparent_pct": 69.91381571128586
+      "height": 3215415,
+      "orchard_pct": 26.25718705288015,
+      "sapling_pct": 3.749674571189412,
+      "timestamp": 1769215844,
+      "transparent_pct": 69.91477803599354
     },
     {
       "height": 3231720,
@@ -4015,102 +4015,102 @@
       "transparent_pct": 69.69700372553618
     },
     {
-      "height": 3247947,
-      "orchard_pct": 26.506599252911133,
-      "sapling_pct": 3.7400012261435536,
-      "timestamp": 1771667223,
-      "transparent_pct": 69.63845635036049
+      "height": 3248180,
+      "orchard_pct": 26.504863627373236,
+      "sapling_pct": 3.7397187603382336,
+      "timestamp": 1771685071,
+      "transparent_pct": 69.6402132386854
     },
     {
-      "height": 3264570,
-      "orchard_pct": 26.50561349828485,
-      "sapling_pct": 3.7206405637337263,
-      "timestamp": 1772919692,
-      "transparent_pct": 69.64019643441796
+      "height": 3264588,
+      "orchard_pct": 26.50546433545038,
+      "sapling_pct": 3.720620588108138,
+      "timestamp": 1772921369,
+      "transparent_pct": 69.64034540651001
     },
     {
-      "height": 3280956,
-      "orchard_pct": 27.15588838137282,
-      "sapling_pct": 3.7097257886867547,
-      "timestamp": 1774154712,
-      "transparent_pct": 68.98255219994856
+      "height": 3280992,
+      "orchard_pct": 27.15581918696694,
+      "sapling_pct": 3.709107096349011,
+      "timestamp": 1774157412,
+      "transparent_pct": 68.98319992141985
     },
     {
-      "height": 3297372,
-      "orchard_pct": 27.26566906447602,
-      "sapling_pct": 3.677977435415646,
-      "timestamp": 1775391281,
-      "transparent_pct": 68.73357031129355
+      "height": 3297443,
+      "orchard_pct": 27.26552980331764,
+      "sapling_pct": 3.67759130923604,
+      "timestamp": 1775397041,
+      "transparent_pct": 68.73401785642601
     },
     {
-      "height": 3313752,
-      "orchard_pct": 27.237636519126863,
-      "sapling_pct": 3.59939238296205,
-      "timestamp": 1776626780,
-      "transparent_pct": 68.82225685480991
+      "height": 3313834,
+      "orchard_pct": 27.239628671312488,
+      "sapling_pct": 3.5988689506628884,
+      "timestamp": 1776632585,
+      "transparent_pct": 68.82069850863799
     },
     {
-      "height": 3330141,
-      "orchard_pct": 27.142950571266066,
-      "sapling_pct": 3.593514161318798,
-      "timestamp": 1777862244,
-      "transparent_pct": 68.90493513251263
+      "height": 3330225,
+      "orchard_pct": 27.135922250314927,
+      "sapling_pct": 3.593507184179435,
+      "timestamp": 1777868065,
+      "transparent_pct": 68.91187889979943
     },
     {
-      "height": 3346537,
-      "orchard_pct": 27.092405028956545,
-      "sapling_pct": 3.560245012471117,
-      "timestamp": 1779097716,
-      "transparent_pct": 68.97091111913794
+      "height": 3346622,
+      "orchard_pct": 27.091858200471652,
+      "sapling_pct": 3.560727920416891,
+      "timestamp": 1779103589,
+      "transparent_pct": 68.97088270286498
     },
     {
-      "height": 3362937,
-      "orchard_pct": 26.95495782324324,
-      "sapling_pct": 3.533461159839109,
-      "timestamp": 1780333157,
-      "transparent_pct": 69.1173537275918
+      "height": 3363006,
+      "orchard_pct": 26.928366819712497,
+      "sapling_pct": 3.534037908414266,
+      "timestamp": 1780339075,
+      "transparent_pct": 69.14329325591567
     },
     {
-      "height": 3379319,
-      "orchard_pct": 22.24145681534426,
-      "sapling_pct": 3.7570809945487205,
-      "timestamp": 1781568670,
-      "transparent_pct": 73.58952024835412
+      "height": 3379396,
+      "orchard_pct": 22.241176387707576,
+      "sapling_pct": 3.757285470823572,
+      "timestamp": 1781574565,
+      "transparent_pct": 73.58951306356285
     },
     {
-      "height": 3395713,
-      "orchard_pct": 22.55518311392222,
-      "sapling_pct": 3.6972554530449044,
-      "timestamp": 1782804125,
-      "transparent_pct": 73.31794591760841
+      "height": 3395802,
+      "orchard_pct": 22.554814531761338,
+      "sapling_pct": 3.6967263291774217,
+      "timestamp": 1782810067,
+      "transparent_pct": 73.31874782419399
     },
     {
-      "height": 3412114,
-      "orchard_pct": 22.410198866434794,
-      "sapling_pct": 3.5270157447998893,
-      "timestamp": 1784039542,
-      "transparent_pct": 73.61554261550458
+      "height": 3412191,
+      "orchard_pct": 22.413597305274298,
+      "sapling_pct": 3.5272146948195413,
+      "timestamp": 1784045577,
+      "transparent_pct": 73.61186259623621
     },
     {
-      "height": 3428505,
-      "orchard_pct": 21.200319653053395,
-      "sapling_pct": 3.517165994426931,
-      "timestamp": 1785275010,
-      "transparent_pct": 74.83070776345009
+      "height": 3428576,
+      "orchard_pct": 21.182429740641087,
+      "sapling_pct": 3.5179256096815,
+      "timestamp": 1785281092,
+      "transparent_pct": 74.84765409291958
     },
     {
-      "height": 3444913,
-      "orchard_pct": 8.29845298405201,
-      "sapling_pct": 3.787436445432965,
-      "timestamp": 1786510577,
-      "transparent_pct": 87.36257957573366
+      "height": 3444993,
+      "orchard_pct": 8.285758635770176,
+      "sapling_pct": 3.78853173832779,
+      "timestamp": 1786516479,
+      "transparent_pct": 87.37398277709987
     },
     {
-      "height": 3444915,
-      "orchard_pct": 8.298446977790482,
-      "sapling_pct": 3.787435787610786,
-      "timestamp": 1786510718,
-      "transparent_pct": 87.36258370401418
+      "height": 3444997,
+      "orchard_pct": 8.285757409262546,
+      "sapling_pct": 3.7885312047248605,
+      "timestamp": 1786516855,
+      "transparent_pct": 87.37397935086287
     }
   ],
   "source": {
